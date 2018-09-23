@@ -1,0 +1,680 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+#header{
+    width: 100%;
+    height: 80px;
+    background: #03090F;
+    position: absolute;
+}
+#header img{
+    margin-left: 177px;
+    margin-top: 18px;
+}
+#header .h_1{
+    width: 1020px;
+    height: 46px;
+    font-size: 20px;
+    margin-left: 320px;
+    margin-top: -48px;
+    float: left;
+}
+#header .h_1 a{
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    color: #fff;
+    float: left;
+}
+#content .c_1{
+    width: 100%;
+    height: 680px;
+    float: left;
+}
+#content .c_1 img{
+    float: left;
+}
+#content .c_1 .watch{
+    width: 100%;
+    height: 680px;
+    background: url("images/banner_pc.jpg") 15% no-repeat;
+    background-size: cover;
+    float: left;
+}
+#content .c_1 .wat_1{
+    width: 590px;
+    height: 490px;
+    position: absolute;
+    left: 145px;
+    top: 30px;
+    background: url("images/watch_bg.jpg") no-repeat;
+}
+#content .watch .wa_1{
+    width: 131px;
+    height: 105px;
+    position: absolute;
+    top: 250px;
+    left:360px;
+    background: url("images/xt_1.jpg");
+    background-position: -448px -824px;
+}
+#content .watch .wa_2{
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    top: 340px;
+    left: 354px;
+    background: url("images/watch_num.jpg");
+    background-position: 0 -300px;
+}
+#content .watch .wa_3{
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    top: 340px;
+    left: 398px;
+    background: url("images/watch_num.jpg");
+}
+#content .watch .wa_4{
+    width: 578px;
+    height: 214px;
+    position: absolute;
+    top: 130px;
+    left: 670px;
+    background: url("images/xt_1.jpg");
+}
+#content .watch .wa_5{
+    width: 293px;
+    height: 69px;
+    cursor: pointer;
+    position: absolute;
+    top: 350px;
+    left: 670px;
+    background: url("images/xt_1.jpg");
+    background-position: -372px -735px;
+}
+.macb{
+    width: 100%;
+    height: 680px;
+    background: url("images/banner_mac.jpg") 15% no-repeat;
+    background-size: cover;
+    float: left;
+}
+.macb_1{
+    width: 623px;
+    height: 145px;
+    position: absolute;
+    top: 125px;
+    left: 670px;
+    background-image: url("images/xt_1.jpg");
+    background-position: -580px 0;
+}
+.macb_2{
+    width: 293px;
+    height: 69px;
+    cursor: pointer;
+    position: absolute;
+    top: 340px;
+    left: 670px;
+    background: url("images/xt_1.jpg");
+    background-position: -372px -735px;
+}
+.iphoneb{
+    width: 100%;
+    height: 680px;
+    background: url("images/banner_iphone.jpg") 15% no-repeat;
+    background-size: cover;
+    float: left;
+}
+.iphoneb_1{
+    width: 370px;
+    height: 159px;
+    position: absolute;
+    top: 145px;
+    left: 670px;
+    background-image: url("images/xt_1.jpg");
+    background-position:  0 -664px;
+}
+.iphoneb_2{
+    width: 293px;
+    height: 69px;
+    cursor: pointer;
+    position: absolute;
+    top: 340px;
+    left: 670px;
+    background: url("images/xt_1.jpg");
+    background-position: -372px -735px;
+}
+.androidb{
+    width: 100%;
+    height: 680px;
+    background: url("images/banner_android.jpg") 15% no-repeat;
+    background-size: cover;
+    float: left;
+}
+.androidb_1{
+    width: 520px;
+    height: 149px;
+    position: absolute;
+    top: 125px;
+    left: 678px;
+    background-image: url("images/xt_1.jpg");
+    background-position:-556px -361px;
+}
+.androidb_2{
+    width: 293px;
+    height: 69px;
+    cursor: pointer;
+    position: absolute;
+    top: 340px;
+    left: 678px;
+    background: url("images/xt_1.jpg");
+    background-position: -372px -735px;
+}
+#content .xz{
+    width: 100%;
+    height: 190px;
+    margin-top: -220px;
+    border-top: 1px solid #637082;
+    float: left;
+}
+#content .xz .xz_1{
+    width: 110px;
+    height: 170px;
+    border-top: 1px solid #fff;
+    position: relative;
+    left: 175px;
+    background: url("images/xt_1.jpg");
+    display: inline-block;
+    margin-right: 185px;
+    background-position: -336px -824px;
+}
+#content .xz .xz_2{
+    width: 110px;
+    height: 170px;
+    border-top: 0 solid #fff;
+    position: relative;
+    left: 175px;
+    opacity: 0.5;
+    background: url("images/xt_1.jpg");
+    background-position: -224px -824px;
+    display: inline-block;
+    margin-right: 185px;
+}
+#content .xz .xz_3{
+    width: 110px;
+    height: 170px;
+    border-top: 0 solid #fff;
+    position: relative;
+    left: 175px;
+    opacity: 0.5;
+    background: url("images/xt_1.jpg");
+    background-position:-112px -824px;
+    display: inline-block;
+    margin-right: 185px;
+}
+#content .xz .xz_4{
+    width: 110px;
+    height: 170px;
+    border-top: 0 solid #fff;
+    position: relative;
+    left: 175px;
+    opacity: 0.5;
+    background: url("images/xt_1.jpg");
+    background-position: 0 -824px;
+    display: inline-block;
+}
+#content .c_1 .jt{
+    width: 36px;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    margin-top: 170px;
+    background:url("images/xt_1.jpg");
+    background-position: -1036px -147px;
+}
+#content .c_2{
+    width: 100%;
+    height: 900px;
+    float: left;
+}
+#content .c_2 .rt{
+    width: 139px;
+    height: 128px;
+    background: url("images/sprite1.jpg");
+    background-position: -79px -291px;
+    float: left;
+}
+#content .c_2 .rt_1{
+    width: 211px;
+    height: 128px;
+    background: url("images/sprite1.jpg");
+    background-position: 0 -508px;
+    float: left;
+}
+#content .c_2 .rt_2{
+    width: 211px;
+    height: 128px;
+    background: url("images/sprite1.jpg");
+    background-position: 0 -718px;
+    float: left;
+}
+#content .c_2 .rt_3{
+    width: 211px;
+    height: 128px;
+    background: url("images/sprite1.jpg");
+    background-position: 0 -928px;
+    float: left;
+}
+#content .c_2 .rt_4{
+    width: 211px;
+    height: 128px;
+    background: url("images/sprite1.jpg");
+    background-position: 0 -1142px;
+    float: left;
+}
+#content .c_2 .rt_5{
+    width: 211px;
+    height: 128px;
+    background: url("images/sprite1.jpg");
+    background-position: 0 -1348px;
+    float: left;
+}
+#content .c_2 .rt_6{
+    width: 155px;
+    height: 128px;
+    background: url("images/sprite1.jpg");
+    background-position: 0 -1560px;
+    float: left;
+}
+#content .c_2 .rt_7{
+    width: 139px;
+    height: 211px;
+    background: url("images/sprite1.jpg");
+    background-position: -72px -2120px;
+    float: left;
+}
+#content .c_2 .rt_8{
+    width: 211px;
+    height: 211px;
+    background: url("images/singer_cyx.jpg");
+    float: left;
+}
+#content .c_2 .rt_9{
+    width: 211px;
+    height: 211px;
+    background: url("images/singer13.jpg");
+    float: left;
+}
+#content .c_2 .rt_10{
+    width: 211px;
+    height: 211px;
+    background: url("images/sprite1.jpg");
+    background-position: 0 -2330px;
+    float: left;
+}
+#content .c_2 .rt_11{
+    width: 211px;
+    height: 211px;
+    background: url("images/sprite1.jpg");
+    background-position: 0 -2545px;
+    float: left;
+}
+#content .c_2 .rt_12{
+    width: 211px;
+    height: 211px;
+    background: url("images/sprite1.jpg");
+    background-position: 0 -2758px;
+    float: left;
+}
+#content .c_2 .rt_13{
+    width: 155px;
+    height: 211px;
+    background: url("images/singer_zly.jpg");
+    float: left;
+}
+#content .c_2 .rt_14{
+    width: 139px;
+    height: 211px;
+    background: url("images/singer_ljj.jpg");
+    background-position: -72px 0;
+    float: left;
+}
+#content .c_2 .rt_15{
+    width: 211px;
+    height: 211px;
+    background: url("images/singer21.jpg");
+    float: left;
+}
+#content .c_2 .rt_16{
+    width: 211px;
+    height: 211px;
+    background: url("images/sprite1.jpg");
+    background-position: 0 -3178px;
+    float: left;
+}
+#content .c_2 .rt_17{
+    width: 211px;
+    height: 211px;
+    background: url("images/sprite2.jpg");
+    background-position: 0 0;
+    float: left;
+}
+#content .c_2 .rt_18{
+    width: 211px;
+    height: 211px;
+    background: url("images/sprite2.jpg");
+    background-position: 0 -215px;
+    float: left;
+}
+#content .c_2 .rt_19{
+    width: 211px;
+    height: 211px;
+    background: url("images/singer_zjl.jpg");
+    float: left;
+}
+#content .c_2 .rt_20{
+    width: 155px;
+    height: 211px;
+    background: url("images/sprite2.jpg");
+    background-position: 0 -425px;
+    float: left;
+}
+#content .c_2 .rt_21{
+    width: 139px;
+    height: 211px;
+    background: url("images/sprite2.jpg");
+    background-position: -72px -1060px;
+    float: left;
+}
+#content .c_2 .rt_22{
+    width: 211px;
+    height: 211px;
+    background: url("images/singer_xtf.jpg");
+    float: left;
+}
+#content .c_2 .rt_23{
+    width: 211px;
+    height: 211px;
+    background: url("images/sprite2.jpg");
+    background-position: 0 -1272px;
+    float: left;
+}
+#content .c_2 .rt_24{
+    width: 211px;
+    height: 211px;
+    background: url("images/singer32.jpg");
+    float: left;
+}
+#content .c_2 .rt_25{
+    width: 211px;
+    height: 211px;
+    background: url("images/sprite2.jpg");
+    background-position: 0 -1485px;
+    float: left;
+}
+#content .c_2 .rt_26{
+    width: 211px;
+    height: 211px;
+    background: url("images/sprite2.jpg");
+    background-position: 0 -1695px;
+    float: left;
+}
+#content .c_2 .rt_27{
+    width: 155px;
+    height: 211px;
+    background: url("images/singer_cyl.jpg");
+    float: left;
+}
+#content .c_2 .rt_28{
+    width: 139px;
+    height: 211px;
+    background: url("images/sprite2.jpg");
+    background-position: -72px -2355px;
+    float: left;
+}
+#content .c_2 .rt_29{
+    width: 211px;
+    height: 211px;
+    background: url("images/sprite2.jpg");
+    background-position: 0 -2555px;
+    float: left;
+}
+#content .c_2 .rt_30{
+    width: 211px;
+    height: 211px;
+    background: url("images/sprite2.jpg");
+    background-position: 0 -2765px;
+    float: left;
+}
+#content .c_2 .rt_31{
+    width: 211px;
+    height: 211px;
+    background: url("images/sprite2.jpg");
+    background-position: 0 -2975px;
+    float: left;
+}
+#content .c_2 .rt_32{
+    width: 211px;
+    height: 211px;
+    background: url("images/sprite2.jpg");
+    background-position: 0 -3185px;
+    float: left;
+}
+#content .c_2 .rt_33{
+    width: 211px;
+    height: 211px;
+    background: url("images/sprite2.jpg");
+    background-position: 0 -3395px;
+    float: left;
+}
+#content .c_2 .rt_34{
+    width: 155px;
+    height: 211px;
+    background: url("images/sprite2.jpg");
+    background-position: 0 -3605px;
+    float: left;
+}
+#content .c_2 .zb{
+    width: 563px;
+    height: 75px;
+    position: absolute;
+    top: 1030px;
+    left: 400px;
+    background: url("images/xt_1.jpg");
+    background-position: -445px -512px;
+}
+#content .c_2 .pt{
+    width: 348px;
+    height: 69px;
+    position: absolute;
+    top: 1130px;
+    left: 500px;
+    background: url("images/xt_1.jpg");
+    background-position: -842px -664px;
+}
+#content .c_2 .jt{
+    width: 36px;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    margin-top: 380px;
+    background:url("images/xt_1.jpg");
+    background-position: -1036px -147px;
+}
+#content .c_3{
+    width: 100%;
+    height: 900px;
+    background: url("images/bg_lyric.jpg") 30% no-repeat;
+    float: left;
+}
+#content .c_3 .hd{
+    width: 554px;
+    height: 149px;
+    position: absolute;
+    top: 1890px;
+    left: 170px;
+    background: url("images/xt_1.jpg");
+    background-position: 0 -361px;
+}
+#content .c_3 .hb{
+    width: 468px;
+    height: 69px;
+    position: absolute;
+    top: 2070px;
+    left: 170px;
+    background: url("images/xt_1.jpg");
+    background-position: -372px -664px;
+}
+#content .c_3 .phone{
+    width: 580px;
+    height: 892px;
+    background: url("images/phone_1.jpg") no-repeat;
+    margin-left: 730px;
+}
+#content .c_3 .nr{
+    width: 425px;
+    height: 645px;
+    background: url("images/lyric_phone2.jpg") no-repeat;
+    position: absolute;
+    transform: rotate(7.5deg);   /* 2D旋转 */
+    top: 1720px;
+    left: 830px;
+}
+#content .c_3 .jt{
+    width: 36px;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    margin-top: -50px;
+    background:url("images/xt_1.jpg");
+    background-position: -1036px -147px;
+}
+#content .c_4{
+    width: 100%;
+    height: 900px;
+    background: url("images/bg_like.jpg") 50% no-repeat;
+    background-size: cover;
+    float: left;
+}
+#content .c_4 .phone{
+    width: 450px;
+    height: 778px;
+    background: url("images/phone_2.jpg") no-repeat;
+    margin-left: 120px;
+    margin-top: 100px;
+    position: absolute;
+}
+#content .c_4 .nr{
+    width: 320px;
+    height: 533px;
+    background: url("images/gd.jpg") ;
+    position: absolute;
+    transform: rotate(-5.5deg);   /* 2D旋转 */
+    top: 2690px;
+    left: 178px;
+}
+#content .c_4 .tj{
+    width: 615px;
+    height: 143px;
+    position: absolute;
+    top: 2800px;
+    left: 630px;
+    background: url("images/xt_1.jpg");
+    background-position: 0 -216px;
+}
+#content .c_4 .like{
+    width: 550px;
+    height: 69px;
+    position: absolute;
+    top: 2980px;
+    left: 630px;
+    background: url("images/xt_1.jpg");
+    background-position: -445px -589px;
+}
+#content .c_4 .jt{
+    width: 36px;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    margin-top: 850px;
+    background:url("images/xt_1.jpg");
+    background-position: -1036px -147px;
+}
+#content .c_5{
+    width: 100%;
+    height: 900px;
+    background: url("images/bg_synchro.jpg") 50% no-repeat;
+    background-size: cover;
+    float: left;
+}
+#content .c_5 .zd{
+    width: 544px;
+    height: 136px;
+    position: absolute;
+    top: 3560px;
+    left: 100px;
+    background: url("images/xt_1.jpg");
+    background-position: -617px -216px;
+}
+#content .c_5 .zh{
+    width: 454px;
+    height: 63px;
+    position: absolute;
+    top: 3720px;
+    left: 100px;
+    background: url("images/xt_1.jpg");
+    background-position: -580px -147px;
+}
+#content .c_5 .phone{
+    width: 255px;
+    height: 329px;
+    position: absolute;
+    top: 3830px;
+    left: 320px;
+    background: url("images/synchro_phone.png");
+}
+#content .c_5 .comp{
+    width: 620px;
+    height: 784px;
+    position: absolute;
+    top: 3440px;
+    left: 680px;
+    background: url("images/synchro_mac1.png") no-repeat;
+}
+#content .c_5 .comp2{
+    width: 620px;
+    height: 376px;
+    position: absolute;
+    top: 408px;
+    background: url("images/synchro_mac2.png") no-repeat;
+}
+#footer{
+    width: 100%;
+    height: 72px;
+    background: rgba(0,0,0,0.2);
+    margin-top: -72px;
+    float: left;
+}
+#footer .bq_1{
+    width: 100%;
+    height: 22px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 22px;
+    color: #fff;
+}
+#footer .bq_1 a{
+    color: #fff;
+}
+#footer .bq_1 a:hover{
+    text-decoration: solid;
+}

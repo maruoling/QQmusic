@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QQ音乐-VIP</title>
+    <link rel="shortcut icon" href="images/小图标11.jpg"/>
+    <link rel="stylesheet" href="QQ音乐-VIP.css">
+</head>
+<body>
+    <div class="mod_header">
+        <div class="mod_navbar">
+            <div class="cont">
+                <div class="nav_logo">
+                    <h1 class="logo_title">
+                        <a href="" class="logo_link">
+                            <img src="images/logoVIP.png" class="logo">
+                        </a>
+                        <span>绿钻豪华版</span>
+                    </h1>
+                </div>
+                <ul class="mod_nav">
+                    <li id="js_index" class="nav_item">
+                        <a href="" class="nav_link" style="color: #23B45B;">首页</a>
+                    </li>
+                    <li id="js_level" class="nav_item">
+                        <a href="" class="nav_link" style="color: #FFFFFF;">特权与等级</a>
+                        <ul class="nav_dropdown" style="visibility: hidden;opacity: 0;">
+                            <li class="dropdown_item">
+                                <a href="" class="dropdown_link">成长等级</a>
+                            </li>
+                            <li class="dropdown_item">
+                                <a href="" class="dropdown_link">全部特权</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="js_activity" class="nav_item">
+                        <a href="" class="nav_link" style="color: #FFFFFF;">最新活动</a>
+                    </li>
+                    <li id="js_year" class="nav_item">
+                        <a href="" class="nav_link" style="color: #FFF;">年费专区</a>
+                    </li>
+                    <li id="js_ffb" class="nav_item">
+                        <a href="" class="nav_link" target="_blank" style="color: #FFF;">付费音乐包</a>
+                    </li>
+                </ul>
+                <div class="mod_identity">
+                    <div class="identity_login">
+                        <p>
+                            您还没有登录，
+                            <a href="javascript:void(0)" class="txt4" id="wydl">马上登录</a>
+                        </p>
+                        <div class="c_right" id="ycdl" style="display: none">
+                            <div class="nav">
+                                <a href="javascript:void(0)" class="s1" id="dlqq">QQ登录</a>
+                                <a href="javascript:void(0)" class="s2" id="dlwx">微信登录</a>
+                                <span id="close"></span>
+                            </div>
+                            <div class="login" id="qqdl" style="display: block">
+                                <div class="ewm" id="dldiv" style="display: block">
+                                    <div class="ksdl">
+                                        <p class="p_1">快速安全登录</p>
+                                        <p class="p_2">请使用<a href="" class="sp_p">QQ手机版</a>扫描二维码，</p>
+                                        <p class="p_2">安全登录，防止盗号。</p>
+                                        <img src="images/qrcode_1.png" style="margin-top: 20px;margin-left: 50px" />
+                                    </div>
+                                </div>
+                                <div id="wdform" style="display: none">
+                                    <p class="p_1">账号密码登录</p>
+                                    <p class="p_2">推荐使用<a href="javascript:void(0)" class="sp_p" id="sp_a">快速安全登录</a>，防止盗号。</p>
+                                    <form method="" action=""  >
+                                        <div class="qqdiv">
+                                            <input type="text" name="qq" id="qq" placeholder="支持QQ号/邮箱/手机号登录" />
+                                        </div>
+                                        <div class="pwddiv">
+                                            <input type="password" name="pwd" id="pwd" placeholder="QQ密码" />
+                                        </div>
+                                        <div class="subdiv">
+                                            <input type="submit"  id="sub" value="登录" />
+                                        </div>
+                                    </form>
+                                </div>
+
+                                <div id="r_b">
+                                    <div class="cbdiv">
+                                        <input type="checkbox" name="cb" id="cb" />下次自动登录
+                                    </div>
+                                    <ul class="xzh">
+                                        <li><a href="javascript:void(0)" id="zhdl">账号密码登录</a></li>
+                                        <li>&nbsp;|&nbsp;</li>
+                                        <li><a href="">注册新帐号</a></li>
+                                        <li>&nbsp;|&nbsp;</li>
+                                        <li><a href="">意见反馈</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div id="wxdl" style="display: none">
+                                <img src="images/ppewm.png" width="140px" height="140px" style="margin-top: 20px;margin-left: 50px"/>
+                                <p class="wx_p">请使用微信扫描二维码登录</p>
+                                <p class="wx_p1">“QQ音乐”</p>
+                                <p class="wx_p1">QQ与微信帐号的音乐资产、付费特权不互通</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="banner" style="height: 900px;">
+            <ul class="banner_list">
+                <li class="banner_show banner_item1" style="display: block;"></li>
+                <li class="banner_show banner_item2"></li>
+                <li class="banner_show banner_item3"></li>
+            </ul>
+            <div class="banner_content">
+                <div class="banner_tit">
+                    <h2 class="banner_title banner_tit1 play">绿钻豪华版</h2>
+                </div>
+                <div class="banner_con">
+                    <p class="banner_txt banner_txt1 play">音乐，更优悦</p>
+                </div>
+                <a href="javascript:void(0)" class="banner_btn play" id="ljkt">立即开通</a>
+            </div>
+            <div class="banner_nav">
+                <div class="cont">
+                    <a href="" class="banner_nav_item banner_nav_item1 current">
+                        <span class="banner_nav_con">绿钻豪华版</span>
+                    </a>
+                    <a href="" class="banner_nav_item banner_nav_item2">
+                        <span class="banner_nav_con">年费绿钻豪华版</span>
+                    </a>
+                    <a href="" class="banner_nav_item banner_nav_item3">
+                        <span class="banner_nav_con">付费音乐包</span>
+                    </a>
+                </div>
+                <a href="" class="banner_down " style="display: none">向下</a>
+            </div>
+        </div>
+        <div class="mod_feature feature1" style="height: 1100px">
+            <div class="feature_box">
+                <div class="feature_bg feature_bg1" style="height: 740px"></div>
+                <div class="feature_intro">
+                    <div class="cont">
+                        <h2 class="feature_tit feature_tit1">音乐，不将就</h2>
+                        <div class="feature_con">
+                            <p class="feature_text feature_text1">对音乐的追求</p>
+                        </div>
+                        <div class="ft_privi">
+                            <ul class="ft_list">
+                                <li class="ft_item">
+                                    <a href="">
+                                        <span class="ft_icon ft_download1"></span>
+                                        <span class="ft_text">高品质音乐下载</span>
+                                    </a>
+                                </li>
+                                <li class="ft_item">
+                                    <a href="">
+                                        <span class="ft_icon ft_download2"></span>
+                                        <span class="ft_text">无损音乐下载</span>
+                                    </a>
+                                </li>
+                                <li class="ft_item">
+                                    <a href="">
+                                        <span class="ft_icon ft_download3"></span>
+                                        <span class="ft_text">付费音乐下载</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="feature_shape feature_shape1"></div>
+                    <div class="feature_shape feature_shape2"></div>
+                </div>
+                <div class="feature_shape feature_shape3"></div>
+            </div>
+        </div>
+        <div class="mod_feature feature2" style="height: 1100px">
+            <div class="feature_box">
+                <div class="feature_bg feature_bg2" style="height: 740px"></div>
+                <div class="feature_intro">
+                    <div class="cont">
+                        <h2 class="feature_tit feature_tit2">爱豆，在一起</h2>
+                        <div class="feature_con">
+                            <p class="feature_text feature_text2">这里有定制的</p>
+                        </div>
+                        <div class="ft_privi">
+                            <ul class="ft_list">
+                                <li class="ft_item">
+                                    <a href="">
+                                        <span class="ft_icon ft_theme"></span>
+                                        <span class="ft_text">个性主题</span>
+                                    </a>
+                                </li>
+                                <li class="ft_item">
+                                    <a href="">
+                                        <span class="ft_icon ft_font"></span>
+                                        <span class="ft_text">歌词海报字体</span>
+                                    </a>
+                                </li>
+                                <li class="ft_item">
+                                    <a href="">
+                                        <span class="ft_icon ft_pop"></span>
+                                        <span class="ft_text">个性弹幕气泡</span>
+                                    </a>
+                                </li>
+                                <li class="ft_item">
+                                    <a href="">
+                                        <span class="ft_icon ft_shou"></span>
+                                        <span class="ft_text">QQ音乐首唱会</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="feature_shape feature_shape4"></div>
+                    <div class="feature_shape feature_shape5"></div>
+                    <div class="feature_shape feature_shape6"></div>
+                </div>
+            </div>
+        </div>
+        <div class="mod_feature feature3" style="height: 1100px">
+            <div class="feature_box">
+                <div class="feature_bg feature_bg3" style="height: 740px"></div>
+                <div class="feature_intro">
+                    <div class="cont">
+                        <h2 class="feature_tit feature_tit3">我，就要不一样</h2>
+                        <div class="feature_con">
+                            <p class="feature_text feature_text3">专属定制的</p>
+                        </div>
+                        <div class="ft_privi">
+                            <ul class="ft_list">
+                                <li class="ft_item">
+                                    <a href="">
+                                        <span class="ft_icon ft_svip"></span>
+                                        <span class="ft_text">闪电尊贵图标</span>
+                                    </a>
+                                </li>
+                                <li class="ft_item">
+                                    <a href="">
+                                        <span class="ft_icon ft_ff"></span>
+                                        <span class="ft_text">付费音乐专属图标</span>
+                                    </a>
+                                </li>
+                                <li class="ft_item">
+                                    <a href="">
+                                        <span class="ft_icon ft_grow"></span>
+                                        <span class="ft_text">成长加速</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="feature_shape feature_shape7"></div>
+                    <div class="feature_shape feature_shape8"></div>
+                </div>
+                <div class="feature_shape feature_shape9"></div>
+            </div>
+        </div>
+        <div class="mod_feature feature4" style="height: 1100px">
+            <div class="feature_box">
+                <div class="feature_bg feature_bg4" style="height: 740px"></div>
+                <div class="feature_intro">
+                    <div class="cont">
+                        <h2 class="feature_tit feature_tit4">心情，让你听见</h2>
+                        <div class="feature_con">
+                            <p class="feature_text feature_text4">一样的喧嚣城市</p>
+                        </div>
+                        <div class="ft_privi">
+                            <ul class="ft_list">
+                                <li class="ft_item">
+                                    <a href="">
+                                        <span class="ft_icon ft_qq"></span>
+                                        <span class="ft_text">QQ空间背景音乐</span>
+                                    </a>
+                                </li>
+                                <li class="ft_item">
+                                    <a href="">
+                                        <span class="ft_icon ft_style"></span>
+                                        <span class="ft_text">个性音乐</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="feature_shape feature_shape10"></div>
+                    <div class="feature_shape feature_shape11"></div>
+                </div>
+                <div class="feature_shape feature_shape12"></div>
+                <div class="feature_shape feature_shape13"></div>
+            </div>
+        </div>
+    </div>
+    <div class="mod_control">
+        <ul class="tool">
+            <li class="tool_item" id="qwe0">
+                <a href="" class="tool_icon qq" >
+                    <div class="tool_qrcode" style="display: none" id="sxy0">
+                        <p style="margin-top: -5px">官方手Q公众号</p>
+                        <img src="images/qrcode_1.png" class="tool_pic1" >
+                        <p class="tool_sp">
+                            扫码免费领<br>
+                            <span class="sp_txt">7天</span>
+                            豪华绿钻
+                        </p>
+                    </div>
+                </a>
+            </li>
+            <li class="tool_item" id="qwe1">
+                <a href="" class="tool_icon wx">
+                    <div class="tool_qrcode" style="display: none" id="sxy1">
+                        <p style="margin-top: -5px">官方微信公众号</p>
+                        <img src="images/qrcode_2.png"  class="tool_pic1">
+                        <p class="tool_sp">
+                            扫码免费领<br>
+                            <span class="sp_txt">7天</span>
+                            豪华绿钻
+                        </p>
+                    </div>
+                </a>
+            </li>
+            <li class="tool_item" id="qwe2">
+                <a href="" class="tool_icon buluo">
+                    <div class="tool_qrcodemi" style="display: none" id="sxy2">
+                        <p>兴趣部落</p>
+                    </div>
+                </a>
+            </li>
+            <li class="tool_item" id="qwe3">
+                <a href="" class="tool_icon duihuan">
+                    <div class="tool_qrcodemi" style="display: none" id="sxy3">
+                        <p>兑换中心</p>
+                    </div>
+                </a>
+            </li>
+            <li class="tool_item" id="qwe4">
+                <a href="" class="tool_icon kefu">
+                    <div class="tool_qrcodemi" style="display: none" id="sxy4">
+                        <p>客服中心</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <script src="QQ音乐-VIP.js"></script>
+</body>
+</html>

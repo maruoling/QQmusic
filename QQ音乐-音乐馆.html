@@ -1,0 +1,3021 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QQ音乐-音乐馆</title>
+    <link rel="shortcut icon" href="images/小图标11.jpg"/>
+    <link rel="stylesheet" href="QQ音乐-音乐馆.css">
+</head>
+<body>
+    <div id="header">
+        <a href=""><img src="images/logo.jpg" class="img_1" /></a>
+        <ul class="ul_1">
+            <li class="li_1"><a href="QQ音乐-音乐馆.html" title="音乐馆" style="color: #fff">音乐馆</a></li>
+            <li class="li_2"><a href="QQ音乐-我的音乐.html" title="我的音乐">我的音乐</a></li>
+            <li><a href="QQ音乐-客户端.html" title="客户端" target="_blank">客户端</a></li>
+            <li><a href="QQ音乐-音乐号.html" title="音乐号" target="_blank">音乐号</a></li>
+            <li class="li_3"><a href="QQ音乐-VIP.html" title="VIP" target="_blank">VIP</a></li>
+        </ul>
+        <input type="text" placeholder="搜索音乐、MV、歌单、用户" class="inp_1" />
+        <a href="" class="ss"></a>
+        <a href="javascript:void(0)" class="a_1" id="wydl">登录</a>
+        <a href="javascript:void(0)" class="a_2" id="lzhhb">开通绿钻豪华版</a>
+        <a href="javascript:void(0)" class="a_3" id="ffb">开通付费包</a>
+
+
+
+        <div class="c_right" id="ycdl" style="display: none">
+            <div class="nav">
+                <a href="javascript:void(0)" class="s1" id="dlqq">QQ登录</a>
+                <a href="javascript:void(0)" class="s2" id="dlwx">微信登录</a>
+                <span id="close"></span>
+            </div>
+            <div class="login" id="qqdl" style="display: block">
+                <div class="ewm" id="dldiv" style="display: block">
+                    <div class="ksdl">
+                        <p class="p_1">快速安全登录</p>
+                        <p class="p_2">请使用<a href="" class="sp_p">QQ手机版</a>扫描二维码，</p>
+                        <p class="p_2">安全登录，防止盗号。</p>
+                        <img src="images/qrcode_1.png" style="margin-top: 20px;margin-left: 50px" />
+                    </div>
+                </div>
+                <div id="wdform" style="display: none">
+                    <p class="p_1">账号密码登录</p>
+                    <p class="p_2">推荐使用<a href="javascript:void(0)" class="sp_p" id="sp_a">快速安全登录</a>，防止盗号。</p>
+                    <form method="" action=""  >
+                        <div class="qqdiv">
+                            <input type="text" name="qq" id="qq" placeholder="支持QQ号/邮箱/手机号登录" />
+                        </div>
+                        <div class="pwddiv">
+                            <input type="password" name="pwd" id="pwd" placeholder="QQ密码" />
+                        </div>
+                        <div class="subdiv">
+                            <input type="submit"  id="sub" value="登录" />
+                        </div>
+                    </form>
+                </div>
+
+                <div id="r_b">
+                    <div class="cbdiv">
+                        <input type="checkbox" name="cb" id="cb" />下次自动登录
+                    </div>
+                    <ul class="xzh">
+                        <li><a href="javascript:void(0)" id="zhdl">账号密码登录</a></li>
+                        <li>&nbsp;|&nbsp;</li>
+                        <li><a href="">注册新帐号</a></li>
+                        <li>&nbsp;|&nbsp;</li>
+                        <li><a href="">意见反馈</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="wxdl" style="display: none">
+                <img src="images/ppewm.png" width="140px" height="140px" style="margin-top: 20px;margin-left: 50px"/>
+                <p class="wx_p">请使用微信扫描二维码登录</p>
+                <p class="wx_p1">“QQ音乐”</p>
+                <p class="wx_p1">QQ与微信帐号的音乐资产、付费特权不互通</p>
+            </div>
+        </div>
+    </div>
+    <div id="nav">
+        <ul class="ul_2">
+            <li><a href="QQ音乐-客户端.html" class="a_4">首页</a></li>
+            <li><a href="音乐馆-歌手.html">歌手</a></li>
+            <li><a href="音乐馆-数字专辑.html">数字专辑</a></li>
+            <li><a href="">专辑</a></li>
+            <li><a href="">排行榜</a></li>
+            <li><a href="">分类歌单</a></li>
+            <li><a href="">电台</a></li>
+            <li><a href="">MV</a></li>
+        </ul>
+    </div>
+    <div id="content">
+        <div class="gd">
+            <a href="javascript:void(0)" class="jiantz" style="display:none;"><i class="zjt"></i></a>
+            <a href="javascript:void(0)" class="jianty" style="display:none;"><i class="yjt"></i></a>
+            <p style="height: 45px;"></p>
+            <h2>歌单推荐</h2>
+            <ul class="ul_3">
+                <li><a href="" class="a_5">为你推荐</a></li>
+                <li><a href="">情歌</a></li>
+                <li><a href="">热门游戏</a></li>
+                <li><a href="">说唱</a></li>
+                <li><a href="">网络歌曲</a></li>
+                <li><a href="">经典</a></li>
+            </ul>
+            <div id="list">
+            <div class="gd_1">
+                <div class="gd_1_1">
+                    <em>
+                        <a href="歌手-李易峰.html" target="_blank">
+                        <div class="yy" style="margin-top: -12px">
+                            <img src="images/lyf.jpg" />
+                            <div class="zhezhao" style="margin-top: -20px">
+                                <div class="play" style="margin-top: -12px"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    </em>
+                    <a href="歌手-李易峰.html" target="_blank">我的最爱：李易峰的放飞</a>
+                    <span>播放量：11.4万</span>
+                </div>
+                <div class="gd_1_1">
+                    <em>
+                        <div class="yy">
+                            <img src="images/gd_2.jpg"  />
+                            <div class="zhezhao">
+                                <div class="play"></div>
+                            </div>
+                        </div>
+                    </em>
+                    <a href="">关于C位出道的青峰</a>
+                    <span>播放量：1.4万</span>
+                </div>
+                <div class="gd_1_1">
+                    <em>
+                        <div class="yy">
+                            <img src="images/gd_3.jpg"  />
+                            <div class="zhezhao">
+                                <div class="play"></div>
+                            </div>
+                        </div>
+                    </em>
+                    <a href="">不怕歌荒！白首冷门优质欧美歌</a>
+                    <span>播放量：36.8万</span>
+                </div>
+                <div class="gd_1_1">
+                    <em>
+                        <div class="yy">
+                            <img src="images/gd_4.jpg"  />
+                            <div class="zhezhao">
+                                <div class="play"></div>
+                            </div>
+                        </div>
+                    </em>
+                    <a href="">情绪低落时听的暖心日语歌</a>
+                    <span>播放量：339.4万</span>
+                </div>
+                <div class="gd_1_1">
+                    <em>
+                        <div class="yy">
+                            <img src="images/gd_5.jpg"  />
+                            <div class="zhezhao">
+                                <div class="play"></div>
+                            </div>
+                        </div>
+                    </em>
+                    <a href="">塞外旅途需了解的史诗古风</a>
+                    <span>播放量：9.8万</span>
+                </div>
+
+                <div class="gd_1_1">
+                    <em>
+                        <div class="yy">
+                            <img src="images/gd_6.jpg"  />
+                            <div class="zhezhao">
+                                <div class="play"></div>
+                            </div>
+                        </div>
+                    </em>
+                    <a href="">陈奕迅新单渐入你心</a>
+                    <span>播放量：13.8万</span>
+                </div>
+                <div class="gd_1_1">
+                    <em>
+                        <div class="yy">
+                            <img src="images/gd_7.jpg"  />
+                            <div class="zhezhao">
+                                <div class="play"></div>
+                            </div>
+                        </div>
+                    </em>
+                    <a href="">「消暑良品」 100％清凉小调</a>
+                    <span>播放量：19.5万</span>
+                </div>
+                <div class="gd_1_1">
+                    <em>
+                        <div class="yy">
+                            <img src="images/gd_8.jpg"  />
+                            <div class="zhezhao">
+                                <div class="play"></div>
+                            </div>
+                        </div>
+                    </em>
+                    <a href="">舒缓迷幻 | 电音新世纪的畅想</a>
+                    <span>播放量：9.9万</span>
+                </div>
+                <div class="gd_1_1">
+                    <em>
+                        <div class="yy">
+                            <img src="images/gd_9.jpg"  />
+                            <div class="zhezhao">
+                                <div class="play"></div>
+                            </div>
+                        </div>
+                    </em>
+                    <a href="">Moombahton｜奇幻异域风</a>
+                    <span>播放量：27.8万</span>
+                </div>
+                <div class="gd_1_1">
+                    <em>
+                        <div class="yy">
+                            <img src="images/gd_10.jpg"  />
+                            <div class="zhezhao">
+                                <div class="play"></div>
+                            </div>
+                        </div>
+                    </em>
+                    <a href="">喜欢你是一场漫长的失恋</a>
+                    <span>播放量：36.3万</span>
+                </div>
+
+                <div class="gd_1_1">
+                    <em>
+                        <a href="歌手-李易峰.html" target="_blank">
+                            <div class="yy" style="margin-top: -12px">
+                                <img src="images/lyf.jpg" />
+                                <div class="zhezhao" style="margin-top: -20px">
+                                    <div class="play" style="margin-top: -12px"></div>
+                                </div>
+                            </div>
+                        </a>
+
+                    </em>
+                    <a href="歌手-李易峰.html" target="_blank">我的最爱：李易峰的放飞</a>
+                    <span>播放量：11.4万</span>
+                </div>
+                <div class="gd_1_1">
+                    <em>
+                        <div class="yy">
+                            <img src="images/gd_2.jpg"  />
+                            <div class="zhezhao">
+                                <div class="play"></div>
+                            </div>
+                        </div>
+                    </em>
+                    <a href="">关于C位出道的青峰</a>
+                    <span>播放量：1.4万</span>
+                </div>
+                <div class="gd_1_1">
+                    <em>
+                        <div class="yy">
+                            <img src="images/gd_3.jpg"  />
+                            <div class="zhezhao">
+                                <div class="play"></div>
+                            </div>
+                        </div>
+                    </em>
+                    <a href="">不怕歌荒！白首冷门优质欧美歌</a>
+                    <span>播放量：36.8万</span>
+                </div>
+                <div class="gd_1_1">
+                    <em>
+                        <div class="yy">
+                            <img src="images/gd_4.jpg"  />
+                            <div class="zhezhao">
+                                <div class="play"></div>
+                            </div>
+                        </div>
+                    </em>
+                    <a href="">情绪低落时听的暖心日语歌</a>
+                    <span>播放量：339.4万</span>
+                </div>
+                <div class="gd_1_1">
+                    <em>
+                        <div class="yy">
+                            <img src="images/gd_5.jpg"  />
+                            <div class="zhezhao">
+                                <div class="play"></div>
+                            </div>
+                        </div>
+                    </em>
+                    <a href="">我知道，喜欢你是一场漫长的失恋</a>
+                    <span>播放量：259.8万</span>
+                </div>
+            </div>
+            </div>
+            <ul class="yyqq">
+                <li class="wyd"></li>
+                <li class="wyd"></li>
+            </ul>
+        </div>
+        <div class="xg">
+            <a href="javascript:void(0)" class="jiantz" style="display: none"><i class="zjt"></i></a>
+            <a href="javascript:void(0)" class="jianty" style="display: none"><i class="yjt"></i></a>
+            <p style="height: 45px;"></p>
+            <h2>新歌首发</h2>
+            <div class="xg_bf">
+                <a href="播放-渺小却伟大.html" class="a_6"><i class="bf"></i>播放全部</a>
+            </div>
+            <ul class="xg_ul">
+                <li><a href="" class="a_7">内地</a></li>
+                <li><a href="">港台</a></li>
+                <li><a href="">欧美</a></li>
+                <li><a href="">日本</a></li>
+                <li><a href="">韩国</a></li>
+            </ul>
+            <div id="list1">
+                <div class="xg_1">
+                    <ul class="song_list">
+                        <li class="song_li">
+                            <div class="xg_1_1">
+                                <em>
+                                    <a href="播放-渺小却伟大.html" target="_blank">
+                                        <div class="yy">
+                                            <img src="images/lyf_6.jpg" />
+                                            <div class="zhezhao">
+                                                <div class="play"></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </em>
+                                <div class="xg_1_3">
+                                    <a href="播放-渺小却伟大.html" class="a_8" target="_blank">渺小却伟大</a><br />
+                                    <a href="" class="a_9">李易峰</a><br />
+                                    <div class="xg_1_4">
+                                        <span>04:44</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="song_li">
+                            <div class="xg_1_1">
+                            <em>
+                                <div class="yy">
+                                    <img src="images/xg_2.jpg" />
+                                    <div class="zhezhao">
+                                        <div class="play"></div>
+                                    </div>
+                                </div>
+                            </em>
+                            <div class="xg_1_3">
+                                <a href="" class="a_8">Like That</a><br />
+                                <a href="" class="a_9">吴亦凡</a><br />
+                                <div class="xg_1_4">
+                                    <span>03:48</span>
+                                </div>
+                            </div>
+                        </div>
+                        </li>
+                        <li class="song_li">
+                            <div class="xg_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xg_3.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <div class="xg_1_3">
+                                    <a href="" class="a_8">我变了我没变</a><br />
+                                    <a href="" class="a_9">张碧晨</a><br />
+                                    <div class="xg_1_4">
+                                        <span>05:18</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="song_li">
+                            <div class="xg_1_2">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xg_4.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <div class="xg_1_3">
+                                    <a href="" class="a_8">万里长城</a><br />
+                                    <a href="" class="a_9">GAI</a><br />
+                                    <div class="xg_1_4">
+                                        <span>03:48</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="song_li">
+                            <div class="xg_1_2">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xg_5.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <div class="xg_1_3">
+                                    <a href="" class="a_8">误会（Misunderstand）</a><br />
+                                    <a href="" class="a_9">黄子韬</a><br />
+                                    <div class="xg_1_4">
+                                        <span>03:26</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="song_li">
+                            <div class="xg_1_2">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xg_6.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <div class="xg_1_3">
+                                    <a href="" class="a_8">Stay In 睡赢</a><br />
+                                    <a href="" class="a_9">张杰</a><br />
+                                    <div class="xg_1_4">
+                                        <span>03:30</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="song_li">
+                            <div class="xg_1_5">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xg_7.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <div class="xg_1_3">
+                                    <a href="" class="a_8">陌上风雅《天涯明月刀》三…</a><br />
+                                    <a href="" class="a_9">李玉刚</a><br />
+                                    <div class="xg_1_4">
+                                        <span>05:31</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="song_li">
+                            <div class="xg_1_5">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xg_8.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <div class="xg_1_3">
+                                    <a href="" class="a_8">今天见了前女友</a><br />
+                                    <a href="" class="a_9">徐良</a><br />
+                                    <div class="xg_1_4">
+                                        <span>03:25</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="song_li">
+                            <div class="xg_1_5">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xg_9.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <div class="xg_1_3">
+                                    <a href="" class="a_8">当我们在同一个世界</a><br />
+                                    <a href="" class="a_9">黄绮珊/萧敬腾</a><br />
+                                    <div class="xg_1_4">
+                                        <span>04:40</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="song_list">
+                        <li class="song_li">
+                            <div class="xg_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xg_1.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <div class="xg_1_3">
+                                    <a href="" class="a_8">就算</a><br />
+                                    <a href="" class="a_9">张靓颖</a><br />
+                                    <div class="xg_1_4">
+                                        <span>06:54</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="song_li">
+                            <div class="xg_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xg_10.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <div class="xg_1_3">
+                                    <a href="" class="a_8">你住在我心里的原因</a><br />
+                                    <a href="" class="a_9">鹿先森乐队</a><br />
+                                    <div class="xg_1_4">
+                                        <span>04:13</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="song_li">
+                            <div class="xg_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xg_11.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <div class="xg_1_3">
+                                    <a href="" class="a_8">一日三餐</a><br />
+                                    <a href="" class="a_9">王奕心</a><br />
+                                    <div class="xg_1_4">
+                                        <span>03:54</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="song_li">
+                            <div class="xg_1_2">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xg_12.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <div class="xg_1_3">
+                                    <a href="" class="a_8">我舍不得</a><br />
+                                    <a href="" class="a_9">陈雅鑫</a><br />
+                                    <div class="xg_1_4">
+                                        <span>03:24</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="song_li">
+                            <div class="xg_1_2">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xg_13.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <div class="xg_1_3">
+                                    <a href="" class="a_8">暂停键</a><br />
+                                    <a href="" class="a_9">伊念</a><br />
+                                    <div class="xg_1_4">
+                                        <span>03:48</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="song_li">
+                            <div class="xg_1_2">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xg_14.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <div class="xg_1_3">
+                                    <a href="" class="a_8">拆穿</a><br />
+                                    <a href="" class="a_9">芸蕾</a><br />
+                                    <div class="xg_1_4">
+                                        <span>03:44</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="song_li">
+                            <div class="xg_1_5">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xg_35.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <div class="xg_1_3">
+                                    <a href="" class="a_8">时间的话</a><br />
+                                    <a href="" class="a_9">李丽</a><br />
+                                    <div class="xg_1_4">
+                                        <span>03:50</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="song_li">
+                            <div class="xg_1_5">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xg_16.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <div class="xg_1_3">
+                                    <a href="" class="a_8">SODA</a><br />
+                                    <a href="" class="a_9">陈羽洁 / 彭馨 / 徐苡桉</a><br />
+                                    <div class="xg_1_4">
+                                        <span>03:24</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="song_li">
+                            <div class="xg_1_5">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xg_17.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <div class="xg_1_3">
+                                    <a href="" class="a_8">拆穿</a><br />
+                                    <a href="" class="a_9">芸蕾</a><br />
+                                    <div class="xg_1_4">
+                                        <span>03:46</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="song_list">
+                        <li class="song_li">
+                            <div class="xg_1_1">
+                                <em>
+                                        <div class="yy">
+                                            <img src="images/xg_18.jpg" />
+                                            <div class="zhezhao">
+                                                <div class="play"></div>
+                                            </div>
+                                        </div>
+                                </em>
+                                <div class="xg_1_3">
+                                    <a href="" class="a_8">第三生</a><br />
+                                    <a href="" class="a_9">Monster KaR</a><br />
+                                    <div class="xg_1_4">
+                                        <span>04:00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="song_li">
+                            <div class="xg_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xg_19.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <div class="xg_1_3">
+                                    <a href="" class="a_8">怪咖</a><br />
+                                    <a href="" class="a_9">薛之谦</a><br />
+                                    <div class="xg_1_4">
+                                        <span>04:10</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="song_li">
+                            <div class="xg_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xg_20.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <div class="xg_1_3">
+                                    <a href="" class="a_8">故乡《小偷家族》电影推广曲</a><br />
+                                    <a href="" class="a_9">李健</a><br />
+                                    <div class="xg_1_4">
+                                        <span>04:57</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="song_li">
+                            <div class="xg_1_2">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xg_21.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <div class="xg_1_3">
+                                    <a href="" class="a_8">血如墨《扶摇》电视剧主题曲</a><br />
+                                    <a href="" class="a_9">张碧晨</a><br />
+                                    <div class="xg_1_4">
+                                        <span>04:05</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="song_li">
+                            <div class="xg_1_2">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xg_22.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <div class="xg_1_3">
+                                    <a href="" class="a_8">动物世界《动物世界》主题曲</a><br />
+                                    <a href="" class="a_9">李宇春</a><br />
+                                    <div class="xg_1_4">
+                                        <span>03:43</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="song_li">
+                            <div class="xg_1_2">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xg_23.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <div class="xg_1_3">
+                                    <a href="" class="a_8">念念又不忘</a><br />
+                                    <a href="" class="a_9">李荣浩</a><br />
+                                    <div class="xg_1_4">
+                                        <span>05:42</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="song_li">
+                            <div class="xg_1_5">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xg_24.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <div class="xg_1_3">
+                                    <a href="" class="a_8">怪咖</a><br />
+                                    <a href="" class="a_9">薛之谦 / 杨迪</a><br />
+                                    <div class="xg_1_4">
+                                        <span>04:56</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="song_li">
+                            <div class="xg_1_5">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xg_25.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <div class="xg_1_3">
+                                    <a href="" class="a_8">十万灰尘</a><br />
+                                    <a href="" class="a_9">胡夏</a><br />
+                                    <div class="xg_1_4">
+                                        <span>04:05</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="song_li">
+                            <div class="xg_1_5">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xg_26.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <div class="xg_1_3">
+                                    <a href="" class="a_8">盛放</a><br />
+                                    <a href="" class="a_9">孟美岐 / 李紫婷 / 杨超越 </a><br />
+                                    <div class="xg_1_4">
+                                        <span>03:44</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="song_list">
+                        <li class="song_li">
+                            <div class="xg_1_1">
+                                <em>
+                                        <div class="yy">
+                                            <img src="images/xg_27.jpg" />
+                                            <div class="zhezhao">
+                                                <div class="play"></div>
+                                            </div>
+                                        </div>
+                                </em>
+                                <div class="xg_1_3">
+                                    <a href="" class="a_8">明智之举</a><br />
+                                    <a href="" class="a_9">许嵩</a><br />
+                                    <div class="xg_1_4">
+                                        <span>04:27</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="song_li">
+                            <div class="xg_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xg_28.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <div class="xg_1_3">
+                                    <a href="" class="a_8">20508</a><br />
+                                    <a href="" class="a_9">JA符龙飞 / 张绍刚</a><br />
+                                    <div class="xg_1_4">
+                                        <span>03:49</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="song_li">
+                            <div class="xg_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xg_29.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <div class="xg_1_3">
+                                    <a href="" class="a_8">不散场</a><br />
+                                    <a href="" class="a_9">金志文</a><br />
+                                    <div class="xg_1_4">
+                                        <span>04:06</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="song_li">
+                            <div class="xg_1_2">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xg_30.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <div class="xg_1_3">
+                                    <a href="" class="a_8">逆风</a><br />
+                                    <a href="" class="a_9">王菊 / 吴宣仪 / Yamy</a><br />
+                                    <div class="xg_1_4">
+                                        <span>03:22</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="song_li">
+                            <div class="xg_1_2">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xg_31.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <div class="xg_1_3">
+                                    <a href="" class="a_8">灵山奇缘</a><br />
+                                    <a href="" class="a_9">韩雪</a><br />
+                                    <div class="xg_1_4">
+                                        <span>04:27</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="song_li">
+                            <div class="xg_1_2">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xg_32.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <div class="xg_1_3">
+                                    <a href="" class="a_8">圆周率</a><br />
+                                    <a href="" class="a_9">GAI</a><br />
+                                    <div class="xg_1_4">
+                                        <span>02:31</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="song_li">
+                            <div class="xg_1_5">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xg_33.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <div class="xg_1_3">
+                                    <a href="" class="a_8">新大头儿子和小头爸爸</a><br />
+                                    <a href="" class="a_9">黄晓明</a><br />
+                                    <div class="xg_1_4">
+                                        <span>04:29</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="song_li">
+                            <div class="xg_1_5">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xg_34.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <div class="xg_1_3">
+                                    <a href="" class="a_8">黑色柳丁</a><br />
+                                    <a href="" class="a_9">卢靖姗</a><br />
+                                    <div class="xg_1_4">
+                                        <span>04:42</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="song_li">
+                            <div class="xg_1_5">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xg_35.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <div class="xg_1_3">
+                                    <a href="" class="a_8">Skin to Skin (Remix)</a><br />
+                                    <a href="" class="a_9">鹿晗</a><br />
+                                    <div class="xg_1_4">
+                                        <span>03:37</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="song_list">
+                        <li class="song_li">
+                            <div class="xg_1_1">
+                                <em>
+                                    <a href="播放-渺小却伟大.html" target="_blank">
+                                        <div class="yy">
+                                            <img src="images/lyf_6.jpg" />
+                                            <div class="zhezhao">
+                                                <div class="play"></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </em>
+                                <div class="xg_1_3">
+                                    <a href="播放-渺小却伟大.html" class="a_8" target="_blank">渺小却伟大</a><br />
+                                    <a href="" class="a_9">李易峰</a><br />
+                                    <div class="xg_1_4">
+                                        <span>04:44</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="song_li">
+                            <div class="xg_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xg_2.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <div class="xg_1_3">
+                                    <a href="" class="a_8">Like That</a><br />
+                                    <a href="" class="a_9">吴亦凡</a><br />
+                                    <div class="xg_1_4">
+                                        <span>03:48</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="song_li">
+                            <div class="xg_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xg_3.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <div class="xg_1_3">
+                                    <a href="" class="a_8">我变了我没变</a><br />
+                                    <a href="" class="a_9">张碧晨</a><br />
+                                    <div class="xg_1_4">
+                                        <span>05:18</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="song_li">
+                            <div class="xg_1_2">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xg_4.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <div class="xg_1_3">
+                                    <a href="" class="a_8">万里长城</a><br />
+                                    <a href="" class="a_9">GAI</a><br />
+                                    <div class="xg_1_4">
+                                        <span>03:48</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="song_li">
+                            <div class="xg_1_2">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xg_5.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <div class="xg_1_3">
+                                    <a href="" class="a_8">误会（Misunderstand）</a><br />
+                                    <a href="" class="a_9">黄子韬</a><br />
+                                    <div class="xg_1_4">
+                                        <span>03:26</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="song_li">
+                            <div class="xg_1_2">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xg_6.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <div class="xg_1_3">
+                                    <a href="" class="a_8">Stay In 睡赢</a><br />
+                                    <a href="" class="a_9">张杰</a><br />
+                                    <div class="xg_1_4">
+                                        <span>03:30</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="song_li">
+                            <div class="xg_1_5">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xg_7.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <div class="xg_1_3">
+                                    <a href="" class="a_8">陌上风雅《天涯明月刀》三…</a><br />
+                                    <a href="" class="a_9">李玉刚</a><br />
+                                    <div class="xg_1_4">
+                                        <span>05:31</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="song_li">
+                            <div class="xg_1_5">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xg_8.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <div class="xg_1_3">
+                                    <a href="" class="a_8">今天见了前女友</a><br />
+                                    <a href="" class="a_9">徐良</a><br />
+                                    <div class="xg_1_4">
+                                        <span>03:25</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="song_li">
+                            <div class="xg_1_5">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xg_9.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <div class="xg_1_3">
+                                    <a href="" class="a_8">当我们在同一个世界</a><br />
+                                    <a href="" class="a_9">黄绮珊/萧敬腾</a><br />
+                                    <div class="xg_1_4">
+                                        <span>04:40</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <ul class="yyqq">
+                <li class="wyd"></li>
+                <li class="wyd"></li>
+                <li class="wyd"></li>
+                <li class="wyd"></li>
+            </ul>
+        </div>
+        <div class="tj">
+            <a href="javascript:void(0)" class="jiantz" style="display: none"><i class="zjt"></i></a>
+            <a href="javascript:void(0)" class="jianty" style="display: none"><i class="yjt"></i></a>
+            <p style="height: 45px;"></p>
+            <h2>精彩推荐</h2>
+            <div id="list2">
+                <div class="tj_1">
+                    <img src="images/tj_1.jpg" />
+                    <img src="images/tj_2.jpg" />
+                    <img src="images/tj_3.jpg" />
+                    <img src="images/tj_4.jpg" />
+                    <img src="images/tj_5.jpg" />
+                    <img src="images/tj_6.jpg" />
+                    <img src="images/tj_7.jpg" />
+                    <img src="images/tj_8.jpg" />
+                </div>
+            </div>
+
+            <ul class="yyqq">
+                <li class="wyd"></li>
+                <li class="wyd"></li>
+                <li class="wyd"></li>
+                <li class="wyd"></li>
+            </ul>
+        </div>
+        <div class="xd">
+            <a href="javascript:void(0)" class="jiantz" style="display: none"><i class="zjt"></i></a>
+            <a href="javascript:void(0)" class="jianty" style="display: none"><i class="yjt"></i></a>
+            <p style="height: 45px;"></p>
+            <h2>新碟首发</h2>
+            <ul class="ul_4">
+                <li><a href="" class="a_7">内地</a></li>
+                <li><a href="">港台</a></li>
+                <li><a href="">欧美</a></li>
+                <li><a href="">日本</a></li>
+                <li><a href="">韩国</a></li>
+            </ul>
+            <div class="xd_1">
+                <a href="" class="a_10">更多 ></a>
+            </div>
+            <div id="list3">
+                <div class="xd_2">
+                    <ul class="play_list">
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <a href="播放-渺小却伟大.html" target="_blank">
+                                        <div class="yy">
+                                            <img src="images/lyf_6.jpg" />
+                                            <div class="zhezhao">
+                                                <div class="play"></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </em>
+                                <p><a href="播放-渺小却伟大.html" target="_blank">渺小却伟大</a></p>
+                                <p><a href="" class="a_11">李易峰</a></p>
+                            </div>
+                        </li>
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_2.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">让我们笑着说再见</a></p>
+                                <p><a href="" class="a_11">贺一航</a></p>
+                            </div>
+                        </li>
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_3.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">创造101 第6期</a></p>
+                                <p><a href="" class="a_11">创造101 女孩</a></p>
+                            </div>
+                        </li>
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_4.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">是时候说再见了</a></p>
+                                <p><a href="" class="a_11">韦琪</a></p>
+                            </div>
+                        </li>
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_5.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">谁懂我的泪</a></p>
+                                <p><a href="" class="a_11">林秋风</a></p>
+                            </div>
+                        </li>
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_6.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">我们的时差</a></p>
+                                <p><a href="" class="a_11">黄原嫄</a></p>
+                            </div>
+                        </li>
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_7.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">Like That</a></p>
+                                <p><a href="" class="a_11">吴亦凡</a></p>
+                            </div>
+                        </li>
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_8.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">就算</a></p>
+                                <p><a href="" class="a_11">张靓颖</a></p>
+                            </div>
+                        </li>
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_9.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">忠于自我</a></p>
+                                <p><a href="" class="a_11">韩红</a></p>
+                            </div>
+                        </li>
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_10.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="" >过去成向往</a></p>
+                                <p><a href="" class="a_11">吴晴</a></p>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="play_list">
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                        <div class="yy">
+                                            <img src="images/xd_21.jpg" />
+                                            <div class="zhezhao">
+                                                <div class="play"></div>
+                                            </div>
+                                        </div>
+                                </em>
+                                <p><a href="">爱过</a></p>
+                                <p><a href="" class="a_11">童可可</a></p>
+                            </div>
+                        </li>
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_22.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">灵山奇缘</a></p>
+                                <p><a href="" class="a_11">韩雪</a></p>
+                            </div>
+                        </li>
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_23.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">新大头儿子和小头爸爸</a></p>
+                                <p><a href="" class="a_11">黄晓明</a></p>
+                            </div>
+                        </li>
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_24.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">王者荣耀 游戏原声 元歌登录音乐</a></p>
+                                <p><a href="" class="a_11">王者荣耀</a></p>
+                            </div>
+                        </li>
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_25.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">一日三餐</a></p>
+                                <p><a href="" class="a_11">王奕心</a></p>
+                            </div>
+                        </li>
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_26.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">老爸老妈</a></p>
+                                <p><a href="" class="a_11">陈星</a></p>
+                            </div>
+                        </li>
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_27.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">刚哭过就能笑</a></p>
+                                <p><a href="" class="a_11">毛泽少</a></p>
+                            </div>
+                        </li>
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_28.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">不要紧张</a></p>
+                                <p><a href="" class="a_11">左颜</a></p>
+                            </div>
+                        </li>
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_29.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">岛屿</a></p>
+                                <p><a href="" class="a_11">Tie Yann (铁阳)</a></p>
+                            </div>
+                        </li>
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_30.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="" >不同世界</a></p>
+                                <p><a href="" class="a_11">杨炅翰</a></p>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="play_list">
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                        <div class="yy">
+                                            <img src="images/xd_11.jpg" />
+                                            <div class="zhezhao">
+                                                <div class="play"></div>
+                                            </div>
+                                        </div>
+                                </em>
+                                <p><a href="">怪咖</a></p>
+                                <p><a href="" class="a_11">薛之谦</a></p>
+                            </div>
+                        </li>
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_12.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">答案在天上</a></p>
+                                <p><a href="" class="a_11">金志文</a></p>
+                            </div>
+                        </li>
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_13.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">完美的陌生人</a></p>
+                                <p><a href="" class="a_11">曲肖冰</a></p>
+                            </div>
+                        </li>
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_14.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">十万灰尘</a></p>
+                                <p><a href="" class="a_11">胡夏</a></p>
+                            </div>
+                        </li>
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_15.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">一千零一夜 电视原声带</a></p>
+                                <p><a href="" class="a_11">华语群星</a></p>
+                            </div>
+                        </li>
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_16.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">故乡</a></p>
+                                <p><a href="" class="a_11">李健</a></p>
+                            </div>
+                        </li>
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_17.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">狭路相逢</a></p>
+                                <p><a href="" class="a_11">陈雅森 / 六哲</a></p>
+                            </div>
+                        </li>
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_18.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href=""> I'm Your Fan</a></p>
+                                <p><a href="" class="a_11">吉克隽逸</a></p>
+                            </div>
+                        </li>
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_19.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">你住在我心里的原因</a></p>
+                                <p><a href="" class="a_11">鹿先森乐队</a></p>
+                            </div>
+                        </li>
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_20.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="" >时间飞行</a></p>
+                                <p><a href="" class="a_11">西瓜JUN</a></p>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="play_list">
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_31.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">我依然爱你</a></p>
+                                <p><a href="" class="a_11">杭天琪</a></p>
+                            </div>
+                        </li>
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_32.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">如约夏至</a></p>
+                                <p><a href="" class="a_11">曹芙嘉</a></p>
+                            </div>
+                        </li>
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_33.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">青竹令</a></p>
+                                <p><a href="" class="a_11">甘璐</a></p>
+                            </div>
+                        </li>
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_34.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">No.307 (S9ryne Ver.)</a></p>
+                                <p><a href="" class="a_11">S9ryne / Kolaa / 熊子</a></p>
+                            </div>
+                        </li>
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_35.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">98K吃鸡</a></p>
+                                <p><a href="" class="a_11">高梦谣 / 吴大美人</a></p>
+                            </div>
+                        </li>
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_36.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">笼中鸟</a></p>
+                                <p><a href="" class="a_11">谭轩辕</a></p>
+                            </div>
+                        </li>
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_37.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">老太婆</a></p>
+                                <p><a href="" class="a_11">西单女孩</a></p>
+                            </div>
+                        </li>
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_38.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href=""> 无畏（Remix）</a></p>
+                                <p><a href="" class="a_11">AKA小肆</a></p>
+                            </div>
+                        </li>
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_39.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">Adult Lessons</a></p>
+                                <p><a href="" class="a_11">Nocturnes曳取 / Andy Mei</a></p>
+                            </div>
+                        </li>
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_40.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="" >寄我浮生v</a></p>
+                                <p><a href="" class="a_11">圆光</a></p>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="play_list">
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <a href="播放-渺小却伟大.html" target="_blank">
+                                        <div class="yy">
+                                            <img src="images/lyf_6.jpg" />
+                                            <div class="zhezhao">
+                                                <div class="play"></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </em>
+                                <p><a href="播放-渺小却伟大.html" target="_blank">渺小却伟大</a></p>
+                                <p><a href="" class="a_11">李易峰</a></p>
+                            </div>
+                        </li>
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_2.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">让我们笑着说再见</a></p>
+                                <p><a href="" class="a_11">贺一航</a></p>
+                            </div>
+                        </li>
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_3.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">创造101 第6期</a></p>
+                                <p><a href="" class="a_11">创造101 女孩</a></p>
+                            </div>
+                        </li>
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_4.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">是时候说再见了</a></p>
+                                <p><a href="" class="a_11">韦琪</a></p>
+                            </div>
+                        </li>
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_5.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">谁懂我的泪</a></p>
+                                <p><a href="" class="a_11">林秋风</a></p>
+                            </div>
+                        </li>
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_6.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">我们的时差</a></p>
+                                <p><a href="" class="a_11">黄原嫄</a></p>
+                            </div>
+                        </li>
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_7.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">Like That</a></p>
+                                <p><a href="" class="a_11">吴亦凡</a></p>
+                            </div>
+                        </li>
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_8.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">就算</a></p>
+                                <p><a href="" class="a_11">张靓颖</a></p>
+                            </div>
+                        </li>
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_9.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">忠于自我</a></p>
+                                <p><a href="" class="a_11">韩红</a></p>
+                            </div>
+                        </li>
+                        <li class="play_li">
+                            <div class="xd_2_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/xd_10.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="" >过去成向往</a></p>
+                                <p><a href="" class="a_11">吴晴</a></p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <ul class="yyqq">
+                <li class="wyd"></li>
+                <li class="wyd"></li>
+                <li class="wyd"></li>
+                <li class="wyd"></li>
+            </ul>
+        </div>
+        <div class="phb">
+            <p style="height: 45px;"></p>
+            <h2>排行榜</h2>
+            <div class="phb_1">
+                <a href="" class="a_10">更多 ></a>
+            </div>
+            <div class="phb_2">
+                <div class="phb_2_1" style="background: url('images/phb_1.jpg')">
+                    <p style="height: 50px"></p>
+                    <h3>巅峰榜</h3>
+                    <a href="" class="phb_a1">流行指数</a>
+                    <ul class="phb_ul">
+                        <li><a href="">丑八怪（live）</a></li>
+                        <li><a href="">薛之谦</a></li>
+                        <li style="height: 25px"></li>
+                        <li><a href="">讲真的</a></li>
+                        <li><a href="">曾惜</a></li>
+                        <li style="height: 25px"></li>
+                        <li><a href="">房间（新版）</a></li>
+                        <li><a href="">刘瑞琦</a></li>
+                        <li style="height: 25px"></li>
+                        <li><a href="">爱能有多好</a></li>
+                        <li><a href="">庄心妍</a></li>
+                    </ul>
+                    <div class="phb_xh">
+                        <p style="height: 73px">1</p>
+                        <p style="height: 70px">2</p>
+                        <p style="height: 70px">3</p>
+                        <p>4</p>
+                    </div>
+                </div>
+                <div class="phb_2_1" style="background: url('images/phb_2.jpg')">
+                    <p style="height: 50px"></p>
+                    <h3>巅峰榜</h3>
+                    <a href="" class="phb_a2">热歌</a>
+                    <ul class="phb_ul">
+                        <li><a href="">肆无忌惮</a></li>
+                        <li><a href="">薛之谦</a></li>
+                        <li style="height: 25px"></li>
+                        <li><a href="">不爱我就拉倒</a></li>
+                        <li><a href="">周杰伦</a></li>
+                        <li style="height: 25px"></li>
+                        <li><a href="">Dura</a></li>
+                        <li><a href="">Daddy Yankee</a></li>
+                        <li style="height: 25px"></li>
+                        <li><a href="">纸短情长（完整版）</a></li>
+                        <li><a href="">烟把儿乐队</a></li>
+                    </ul>
+                    <div class="phb_xh">
+                        <p style="height: 73px">1</p>
+                        <p style="height: 70px">2</p>
+                        <p style="height: 70px">3</p>
+                        <p>4</p>
+                    </div>
+                </div>
+                <div class="phb_2_1" style="background: url('images/phb_3.jpg')">
+                    <p style="height: 50px"></p>
+                    <h3>巅峰榜</h3>
+                    <a href="" class="phb_a2">新歌</a>
+                    <ul class="phb_ul">
+                        <li><a href="">肆无忌惮</a></li>
+                        <li><a href="">薛之谦</a></li>
+                        <li style="height: 25px"></li>
+                        <li><a href="">Like That</a></li>
+                        <li><a href="">吴亦凡</a></li>
+                        <li style="height: 25px"></li>
+                        <li><a href="">就算</a></li>
+                        <li><a href="">张靓颖</a></li>
+                        <li style="height: 25px"></li>
+                        <li><a href="">房间（新版）</a></li>
+                        <li><a href="">刘瑞琦</a></li>
+                    </ul>
+                    <div class="phb_xh">
+                        <p style="height: 73px">1</p>
+                        <p style="height: 70px">2</p>
+                        <p style="height: 70px">3</p>
+                        <p>4</p>
+                    </div>
+                </div>
+                <div class="phb_2_1" style="background: url('images/phb_4.jpg')">
+                    <p style="height: 50px"></p>
+                    <h3>巅峰榜</h3>
+                    <a href="" class="phb_a2">欧美</a>
+                    <ul class="phb_ul">
+                        <li><a href="">Ignite</a></li>
+                        <li><a href="">K-391/Alan Walker</a></li>
+                        <li style="height: 25px"></li>
+                        <li><a href="">Start Again</a></li>
+                        <li><a href="">OneRepulic/Logic</a></li>
+                        <li style="height: 25px"></li>
+                        <li><a href="">Solo</a></li>
+                        <li><a href="">Clean Bandit</a></li>
+                        <li style="height: 25px"></li>
+                        <li><a href="">Sangria Wine</a></li>
+                        <li><a href="">Pharrell Williams</a></li>
+                    </ul>
+                    <div class="phb_xh">
+                        <p style="height: 73px">1</p>
+                        <p style="height: 70px">2</p>
+                        <p style="height: 70px">3</p>
+                        <p>4</p>
+                    </div>
+                </div>
+                <div class="phb_2_1" style="background: url('images/phb_5.jpg')">
+                    <p style="height: 50px"></p>
+                    <h3>巅峰榜</h3>
+                    <a href="" class="phb_a2">韩国</a>
+                    <ul class="phb_ul">
+                        <li><a href="">Letter</a></li>
+                        <li><a href="">郑容和</a></li>
+                        <li style="height: 25px"></li>
+                        <li><a href="">Wake Me Up</a></li>
+                        <li><a href="">TWICE</a></li>
+                        <li style="height: 25px"></li>
+                        <li><a href="">是我的</a></li>
+                        <li><a href="">PRODUCE</a></li>
+                        <li style="height: 25px"></li>
+                        <li><a href="">POOL</a></li>
+                        <li><a href="">曹承衍WOODZ</a></li>
+                    </ul>
+                    <div class="phb_xh">
+                        <p style="height: 73px">1</p>
+                        <p style="height: 70px">2</p>
+                        <p style="height: 70px">3</p>
+                        <p>4</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="MV">
+            <a href="javascript:void(0)" class="jiantz" style="display: none"><i class="zjt"></i></a>
+            <a href="javascript:void(0)" class="jianty" style="display: none"><i class="yjt"></i></a>
+            <p style="height: 45px;"></p>
+            <h2>MV</h2>
+            <ul class="ul_5">
+                <li><a href="" class="a_7">精选</a></li>
+                <li><a href="">内地</a></li>
+                <li><a href="">港台</a></li>
+                <li><a href="">欧美</a></li>
+                <li><a href="">日本</a></li>
+                <li><a href="">韩国</a></li>
+            </ul>
+            <div id="list4">
+                <div class="MV_1">
+                    <ul class="mv_list">
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_1.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">忐忑（孟美岐/杜金雨）</a></p>
+                                <p><a href="" class="a_11">创造101女孩</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>11.7万</span></div>
+                            </div>
+                        </li>
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_2.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">陌上风雅（《天涯明月刀》）</a></p>
+                                <p><a href="" class="a_11">李玉刚</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>6万</span></div>
+                            </div>
+                        </li>
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_3.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">乱了阵脚</a></p>
+                                <p><a href="" class="a_11">孙子涵</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>7万</span></div>
+                            </div>
+                        </li>
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_4.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">与荒野</a></p>
+                                <p><a href="" class="a_11">陈鸿宇</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>2.8万</span></div>
+                            </div>
+                        </li>
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_5.gif" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">旅行</a></p>
+                                <p><a href="" class="a_11">韩国歌手</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>4.6万</span></div>
+                            </div>
+                        </li>
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_6.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">她们唱的爱情</a></p>
+                                <p><a href="" class="a_11">曾昭玮</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>1.9万</span></div>
+                            </div>
+                        </li>
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_7.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">Entertainer</a></p>
+                                <p><a href="" class="a_11">ZAYN</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>3.1万</span></div>
+                            </div>
+                        </li>
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_8.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">真假难辨</a></p>
+                                <p><a href="" class="a_11">Alan Walker</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>1.6万</span></div>
+                            </div>
+                        </li>
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_9.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">Like That</a></p>
+                                <p><a href="" class="a_11">吴亦凡</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>26.2万</span></div>
+                            </div>
+                        </li>
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_10.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">Fall In Line</a></p>
+                                <p><a href="" class="a_11">Christina Aguilera</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>1.2万</span></div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="mv_list">
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_11.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">血如墨 (《扶摇》电视剧命运主题曲)</a></p>
+                                <p><a href="" class="a_11">张碧晨</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>18万</span></div>
+                            </div>
+                        </li>
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_12.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">花不语 (《一千零一夜》电视剧片尾曲)</a></p>
+                                <p><a href="" class="a_11">邓伦</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>4.2万</span></div>
+                            </div>
+                        </li>
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_13.gif" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">빙글뱅글 (Bingle Bangle)</a></p>
+                                <p><a href="" class="a_11">AOA</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>66.4万</span></div>
+                            </div>
+                        </li>
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_14.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">摆乌龙 (《新乌龙院之笑闹江湖》电影宣传曲)</a></p>
+                                <p><a href="" class="a_11">刘畊宏</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>2719</span></div>
+                            </div>
+                        </li>
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_15.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">第三生</a></p>
+                                <p><a href="" class="a_11">Monster KaR</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>4.6万</span></div>
+                            </div>
+                        </li>
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_16.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">宿命 (《素手遮天》电视剧虐恋主题曲)</a></p>
+                                <p><a href="" class="a_11">刘忻</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>1.1万</span></div>
+                            </div>
+                        </li>
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_17.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">Lose It</a></p>
+                                <p><a href="" class="a_11">Kane Brown</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>2991</span></div>
+                            </div>
+                        </li>
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_18.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">真假难辨</a></p>
+                                <p><a href="" class="a_11">Alan Walker</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>1.6万</span></div>
+                            </div>
+                        </li>
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_19.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">Skin to Skin (Remix) [Feat. Machinedrum]</a></p>
+                                <p><a href="" class="a_11">鹿晗</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>6.2万</span></div>
+                            </div>
+                        </li>
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_10.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">Fall In Line</a></p>
+                                <p><a href="" class="a_11">Christina Aguilera</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>1.2万</span></div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="mv_list">
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_21.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">忐忑（孟美岐/杜金雨）</a></p>
+                                <p><a href="" class="a_11">创造101女孩</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>11.7万</span></div>
+                            </div>
+                        </li>
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_22.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">陌上风雅（《天涯明月刀》）</a></p>
+                                <p><a href="" class="a_11">李玉刚</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>6万</span></div>
+                            </div>
+                        </li>
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_23.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">乱了阵脚</a></p>
+                                <p><a href="" class="a_11">孙子涵</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>7万</span></div>
+                            </div>
+                        </li>
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_24.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">与荒野</a></p>
+                                <p><a href="" class="a_11">陈鸿宇</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>2.8万</span></div>
+                            </div>
+                        </li>
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_25.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">旅行</a></p>
+                                <p><a href="" class="a_11">韩国歌手</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>4.6万</span></div>
+                            </div>
+                        </li>
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_26.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">她们唱的爱情</a></p>
+                                <p><a href="" class="a_11">曾昭玮</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>1.9万</span></div>
+                            </div>
+                        </li>
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_27.gif" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">Entertainer</a></p>
+                                <p><a href="" class="a_11">ZAYN</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>3.1万</span></div>
+                            </div>
+                        </li>
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_28.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">真假难辨</a></p>
+                                <p><a href="" class="a_11">Alan Walker</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>1.6万</span></div>
+                            </div>
+                        </li>
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_29.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">Like That</a></p>
+                                <p><a href="" class="a_11">吴亦凡</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>26.2万</span></div>
+                            </div>
+                        </li>
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_30.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">Fall In Line</a></p>
+                                <p><a href="" class="a_11">Christina Aguilera</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>1.2万</span></div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="mv_list">
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_31.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">忐忑（孟美岐/杜金雨）</a></p>
+                                <p><a href="" class="a_11">创造101女孩</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>11.7万</span></div>
+                            </div>
+                        </li>
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_32.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">陌上风雅（《天涯明月刀》）</a></p>
+                                <p><a href="" class="a_11">李玉刚</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>6万</span></div>
+                            </div>
+                        </li>
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_33.gif" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">乱了阵脚</a></p>
+                                <p><a href="" class="a_11">孙子涵</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>7万</span></div>
+                            </div>
+                        </li>
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_34.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">与荒野</a></p>
+                                <p><a href="" class="a_11">陈鸿宇</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>2.8万</span></div>
+                            </div>
+                        </li>
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_35.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">旅行</a></p>
+                                <p><a href="" class="a_11">韩国歌手</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>4.6万</span></div>
+                            </div>
+                        </li>
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_36.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">她们唱的爱情</a></p>
+                                <p><a href="" class="a_11">曾昭玮</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>1.9万</span></div>
+                            </div>
+                        </li>
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_37.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">Entertainer</a></p>
+                                <p><a href="" class="a_11">ZAYN</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>3.1万</span></div>
+                            </div>
+                        </li>
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_38.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">真假难辨</a></p>
+                                <p><a href="" class="a_11">Alan Walker</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>1.6万</span></div>
+                            </div>
+                        </li>
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_39.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">Like That</a></p>
+                                <p><a href="" class="a_11">吴亦凡</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>26.2万</span></div>
+                            </div>
+                        </li>
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_40.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">Fall In Line</a></p>
+                                <p><a href="" class="a_11">Christina Aguilera</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>1.2万</span></div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="mv_list">
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_1.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">忐忑（孟美岐/杜金雨）</a></p>
+                                <p><a href="" class="a_11">创造101女孩</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>11.7万</span></div>
+                            </div>
+                        </li>
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_2.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">陌上风雅（《天涯明月刀》）</a></p>
+                                <p><a href="" class="a_11">李玉刚</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>6万</span></div>
+                            </div>
+                        </li>
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_3.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">乱了阵脚</a></p>
+                                <p><a href="" class="a_11">孙子涵</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>7万</span></div>
+                            </div>
+                        </li>
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_4.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">与荒野</a></p>
+                                <p><a href="" class="a_11">陈鸿宇</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>2.8万</span></div>
+                            </div>
+                        </li>
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_5.gif" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">旅行</a></p>
+                                <p><a href="" class="a_11">韩国歌手</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>4.6万</span></div>
+                            </div>
+                        </li>
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_6.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">她们唱的爱情</a></p>
+                                <p><a href="" class="a_11">曾昭玮</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>1.9万</span></div>
+                            </div>
+                        </li>
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_7.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">Entertainer</a></p>
+                                <p><a href="" class="a_11">ZAYN</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>3.1万</span></div>
+                            </div>
+                        </li>
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_8.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">真假难辨</a></p>
+                                <p><a href="" class="a_11">Alan Walker</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>1.6万</span></div>
+                            </div>
+                        </li>
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_9.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">Like That</a></p>
+                                <p><a href="" class="a_11">吴亦凡</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>26.2万</span></div>
+                            </div>
+                        </li>
+                        <li class="mv_li">
+                            <div class="MV_1_1">
+                                <em>
+                                    <div class="yy">
+                                        <img src="images/mv_10.jpg" />
+                                        <div class="zhezhao">
+                                            <div class="play"></div>
+                                        </div>
+                                    </div>
+                                </em>
+                                <p><a href="">Fall In Line</a></p>
+                                <p><a href="" class="a_11">Christina Aguilera</a></p>
+                                <img src="images/sxt.jpg" class="sxt"/>
+                                <div class="MV_sp"><span>1.2万</span></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <ul class="yyqq">
+                <li class="wyd"></li>
+                <li class="wyd"></li>
+                <li class="wyd"></li>
+                <li class="wyd"></li>
+            </ul>
+        </div>
+    </div>
+    <div id="footer">
+        <p style="height: 80px"></p>
+        <div class="f_1">
+            <div class="f_xz">
+                <p style="margin-left: 20px">下载QQ音乐客户端</p>
+                <p style="height: 50px"></p>
+                <ul class="xz_ul">
+                    <li class="xz_1"><a href=""  ><i class="xz_pc"><span class="icon_txt"></span></i>PC版</a></li>
+                    <li class="xz_1"><a href=""  ><i class="xz_mac"><span class="icon_txt"></span></i>Mac版</a></li>
+                    <li class="xz_1"><a href=""   ><i class="xz_android"><span class="icon_txt"></span></i>Android版</a></li>
+                    <li class="xz_1"><a href=""   ><i class="xz_iphone"><span class="icon_txt"></span></i>iPhone版</a></li>
+                </ul>
+            </div>
+            <div class="f_cp">
+                <p style="margin-left: 20px">特色产品</p>
+                <p style="height: 50px"></p>
+                <ul class="cp_ul">
+                    <li class="cp_1 "><a href=""  ><i class="cp_kg"></i>全民K歌</a></li>
+                    <li class="cp_1 "><a href=""   ><i class="cp_ss"></i>Super Sound</a></li>
+                    <li class="cp_1 "><a href=""   ><i class="cp_qp"></i>QPlay</a></li>
+                    <li class="cp_2"><a href=""   >车载互联</a></li>
+                    <li class="cp_2"><a href=""  >QQ演出</a></li>
+                </ul>
+            </div>
+            <div class="f_lj">
+                <p>合作链接</p>
+                <p style="height:50px "></p>
+                <div class="lj_a">
+                    <a href="">CJ E&M</a>
+                    <a href="">最新版QQ</a>
+                    <a href="">QQ浏览器</a>
+                    <a href="">企鹅FM</a>
+                </div>
+                <div class="lj_a">
+                    <a href="">腾讯视频</a>
+                    <a href="">腾讯社交广告</a>
+                    <a href="">腾讯微云</a>
+                    <a href="">智能电视网</a>
+                </div>
+                <div class="lj_a">
+                    <a href="">手机QQ空间</a>
+                    <a href="">电脑管家</a>
+                    <a href="">腾讯云</a>
+                    <a href="">当贝市场</a>
+                </div>
+
+            </div>
+            <div class="f_pt">
+                <p>开放平台</p>
+                <p style="height: 50px"></p>
+                <ul class="pt_ul">
+                    <li class="pt_li"><a href="">腾讯音乐人平台</a></li>
+                    <li><a href="">音乐号认证</a></li>
+                    <li><a href="">上传视频</a></li>
+                    <li><a href="">上传音频</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="f_bq">
+            <p style="height: 30px"></p>
+            <div class="bq_1">
+                <a href=""  title="关于腾讯">关于腾讯</a> |
+                <a href=""  title="About Tencent">About Tencent</a> |
+                <a href=""  title="服务条款">服务条款</a> |
+                <a href=""  title="用户服务协议">用户服务协议</a> |
+                <a href=""  title="隐私政策">隐私政策</a> |
+                <a href=""  title="权利声明">权利声明</a> |
+                <a href=""  title="广告服务">广告服务</a> |
+                <a href=""  title="腾讯招聘">腾讯招聘</a> |
+                <a href=""  title="客服中心">客服中心</a> |
+                <a href=""  title="网站导航">网站导航</a>
+            </div>
+            <div class="bq_1">
+                Copyright &copy; 1998-2018 Tencent.
+                <a href=""  title="All Rights Reserved.">All Rights Reserved</a>
+            </div>
+            <div class="bq_1">
+                腾讯公司
+                <a href="" title="版权所有">版权所有</a>
+                <a href="" title="腾讯网络文化经营许可证">腾讯网络文化经营许可证</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="fk" >
+        <a href="" target="_top" class="a_1" id="xs" style="display: none"><i class="i_1"></i></a>
+        <a href="" class="a_2">反馈</a>
+        <a href="播放-渺小却伟大.html" target="_blank" class="a_3" ><i class="i_2"></i></a>
+    </div>
+
+    <script src="QQ音乐-音乐馆.js"></script>
+</body>
+</html>

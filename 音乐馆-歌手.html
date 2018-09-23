@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>音乐馆-歌手</title>
+    <link rel="shortcut icon" href="images/小图标11.jpg"/>
+    <link rel="stylesheet" href="音乐馆-歌手.css">
+</head>
+<body>
+    <div id="header">
+        <a href=""><img src="images/logo.jpg" class="img_1" /></a>
+        <ul class="ul_1">
+            <li class="li_1"><a href="QQ音乐-音乐馆.html" title="音乐馆" style="color: #fff">音乐馆</a></li>
+            <li class="li_2"><a href="QQ音乐-我的音乐.html" title="我的音乐">我的音乐</a></li>
+            <li><a href="QQ音乐-客户端.html" title="客户端" target="_blank">客户端</a></li>
+            <li><a href="QQ音乐-音乐号.html" title="音乐号">音乐号</a></li>
+            <li class="li_3"><a href="QQ音乐-VIP.html" title="VIP">VIP</a></li>
+        </ul>
+        <input type="text" placeholder="搜索音乐、MV、歌单、用户" class="inp_1" />
+        <a href="javascript:void(0)" class="a_1" id="wydl">登录</a>
+        <a href="javascript:void(0)" class="a_2" id="lzhhb">开通绿钻豪华版</a>
+        <a href="javascript:void(0)" class="a_3" id="ffb">开通付费包</a>
+    </div>
+    <div id="nav">
+        <ul class="ul_2">
+            <li><a href="QQ音乐-音乐馆.html">首页</a></li>
+            <li><a href="" class="a_4">歌手</a></li>
+            <li><a href="音乐馆-数字专辑.html">数字专辑</a></li>
+            <li><a href="">专辑</a></li>
+            <li><a href="">排行榜</a></li>
+            <li><a href="">分类歌单</a></li>
+            <li><a href="">电台</a></li>
+            <li><a href="">MV</a></li>
+        </ul>
+    </div>
+    <div id="content">
+        <div class="tp">
+            <div class="dl">
+                <p class="p_1">万千歌手，尽在眼前</p>
+                <div class="gz">登录查看你关注的歌手</div>
+                <a class="tp_a" href="javascript:void(0)" id="ljdl">立即登录<span class="tp_a_border"></span></a>
+            </div>
+            <div class="c_right" id="ycdl" style="display: none">
+                <div class="nav">
+                    <a href="javascript:void(0)" class="s1" id="dlqq">QQ登录</a>
+                    <a href="javascript:void(0)" class="s2" id="dlwx">微信登录</a>
+                    <span id="close"></span>
+                </div>
+                <div class="login" id="qqdl" style="display: block">
+                    <div class="ewm" id="dldiv" style="display: block">
+                        <div class="ksdl">
+                            <p class="dlp_1">快速安全登录</p>
+                            <p class="dlp_2">请使用<a href="" class="sp_p">QQ手机版</a>扫描二维码，</p>
+                            <p class="dlp_2">安全登录，防止盗号。</p>
+                            <img src="images/qrcode_1.png" style="margin-top: 20px;margin-left: 50px" />
+                        </div>
+                    </div>
+                    <div id="wdform" style="display: none">
+                        <p class="dlp_1">账号密码登录</p>
+                        <p class="dlp_2">推荐使用<a href="javascript:void(0)" class="sp_p" id="sp_a">快速安全登录</a>，防止盗号。</p>
+                        <form method="" action=""  >
+                            <div class="qqdiv">
+                                <input type="text" name="qq" id="qq" placeholder="支持QQ号/邮箱/手机号登录" />
+                            </div>
+                            <div class="pwddiv">
+                                <input type="password" name="pwd" id="pwd" placeholder="QQ密码" />
+                            </div>
+                            <div class="subdiv">
+                                <input type="submit"  id="sub" value="登录" />
+                            </div>
+                        </form>
+                    </div>
+
+                    <div id="r_b">
+                        <div class="cbdiv">
+                            <input type="checkbox" name="cb" id="cb" />下次自动登录
+                        </div>
+                        <ul class="xzh">
+                            <li><a href="javascript:void(0)" id="zhdl">账号密码登录</a></li>
+                            <li>&nbsp;|&nbsp;</li>
+                            <li><a href="">注册新帐号</a></li>
+                            <li>&nbsp;|&nbsp;</li>
+                            <li><a href="">意见反馈</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="wxdl" style="display: none">
+                    <img src="images/ppewm.png" width="140px" height="140px" style="margin-top: 20px;margin-left: 50px"/>
+                    <p class="wx_p">请使用微信扫描二维码登录</p>
+                    <p class="wx_p1">“QQ音乐”</p>
+                    <p class="wx_p1">QQ与微信帐号的音乐资产、付费特权不互通</p>
+                </div>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="singer_name">
+                <a href="" class="select" >热门</a>
+                <a href="" class="item" >A</a>
+                <a href="" class="item" >B</a>
+                <a href="" class="item" >C</a>
+                <a href=""  class="item">D</a>
+                <a href="" class="item" >E</a>
+                <a href="" class="item" >F</a>
+                <a href="" class="item" >G</a>
+                <a href=""  class="item">H</a>
+                <a href="" class="item" >I</a>
+                <a href="" class="item" >J</a>
+                <a href="" class="item" >K</a>
+                <a href="" class="item" >L</a>
+                <a href="" class="item" >M</a>
+                <a href="" class="item" >N</a>
+                <a href="" class="item" >O</a>
+                <a href="" class="item" >P</a>
+                <a href="" class="item" >Q</a>
+                <a href="" class="item" >R</a>
+                <a href="" class="item" >S</a>
+                <a href="" class="item" >T</a>
+                <a href="" class="item" >U</a>
+                <a href="" class="item" >V</a>
+                <a href="" class="item" >W</a>
+                <a href="" class="item" >X</a>
+                <a href="" class="item" >Y</a>
+                <a href="" class="item" >Z</a>
+                <a href="" class="item" >#</a>
+            </div>
+            <div class="singer_area">
+                <a href="" class="select" >全部</a>
+                <a href="" class="item" >内地</a>
+                <a href="" class="item" >港台</a>
+                <a href="" class="item" >欧美</a>
+                <a href="" class="item" >日本</a>
+                <a href="" class="item" >韩国</a>
+                <a href="" class="item" >其他</a>
+            </div>
+            <div class="singer_sex">
+                <a href="" class="select" >全部</a>
+                <a href="" class="item" >男</a>
+                <a href="" class="item" >女</a>
+                <a href="" class="item" >组合</a>
+            </div>
+            <div class="song_style">
+                <a href="" class="select">全部</a>
+                <a href="" class="item" >流行</a>
+                <a href="" class="item" >嘻哈</a>
+                <a href="" class="item" >摇滚</a>
+                <a href="" class="item" >电子</a>
+                <a href="" class="item" >民谣</a>
+                <a href="" class="item" >民歌</a>
+                <a href="" class="item" >轻音乐</a>
+                <a href="" class="item" >爵士</a>
+                <a href="" class="item" >古典</a>
+                <a href="" class="item" >乡村</a>
+                <a href="" class="item" >蓝调</a>
+            </div>
+
+
+        </div>
+        <div class="gs">
+            <ul class="gs_ul">
+                <li class="gs_li">
+                    <div class="gs_div">
+                        <a href="歌手-李易峰.html"  class="gs_a"  title="李易峰" target="_blank">
+                            <img class="gs_pic"  src="images/lyf.jpg" alt="李易峰">
+                        </a>
+                        <h3 class="gs_h"><a href=""  title="李易峰">李易峰</a></h3>
+                    </div>
+                </li>
+                <li class="gs_li">
+                    <div class="gs_div">
+                        <a href=""  class="gs_a"   title="张靓颖">
+                            <img class="gs_pic"  src="images/xd_8.jpg" alt="张靓颖">
+                        </a>
+                        <h3 class="gs_h"><a href=""  title="张靓颖">张靓颖</a></h3>
+                    </div>
+                </li>
+                <li class="gs_li">
+                    <div class="gs_div">
+                        <a href="" class="gs_a "  title="周杰伦">
+                            <img class="gs_pic"  src="images/zjl.jpg" alt="周杰伦">
+                        </a>
+                        <h3 class="gs_h"><a href=""  title="周杰伦">周杰伦</a></h3>
+                    </div>
+                </li>
+                <li class="gs_li">
+                    <div class="gs_div">
+                        <a href=""  class="gs_a"   title="林俊杰">
+                            <img class="gs_pic"  src="images/ljj.jpg" alt="林俊杰">
+                        </a>
+                        <h3 class="gs_h"><a href=""  title="林俊杰">林俊杰</a></h3>
+                    </div>
+                </li>
+                <li class="gs_li">
+                    <div class="gs_div">
+                        <a href="" class="gs_a"  title="薛之谦">
+                            <img class="gs_pic" src="images/xzq.jpg" alt="薛之谦">
+                        </a>
+                        <h3 class="gs_h"><a href=""  title="薛之谦">薛之谦</a></h3>
+                    </div>
+                </li>
+                <li class="gs_li">
+                    <div class="gs_div">
+                        <a href="" class="gs_a"  title="于文文">
+                            <img class="gs_pic"  src="images/yww.jpg" alt="于文文">
+                        </a>
+                        <h3 class="gs_h"><a href=""  title="于文文">于文文</a></h3>
+                    </div>
+                </li>
+                <li class="gs_li">
+                    <div class="gs_div">
+                        <a href="" class="gs_a"   title="陈奕迅">
+                            <img class="gs_pic" src="images/cyx.jpg" alt="陈奕迅">
+                        </a>
+                        <h3 class="gs_h"><a href="" title="陈奕迅">陈奕迅</a></h3>
+                    </div>
+                </li>
+                <li class="gs_li">
+                    <div class="gs_div">
+                        <a href="" class="gs_a" title="李荣浩">
+                            <img class="gs_pic" src="images/lrh.jpg" alt="李荣浩">
+                        </a>
+                        <h3 class="gs_h"><a href=""  title="李荣浩">李荣浩</a></h3>
+                    </div>
+                </li>
+                <li class="gs_li">
+                    <div class="gs_div">
+                        <a href=""  class="gs_a"   title="毛不易">
+                            <img class="gs_pic" src="images/mby.jpg" alt="毛不易">
+                        </a>
+                        <h3 class="gs_h"><a href=""  title="毛不易">毛不易</a></h3>
+                    </div>
+                </li>
+                <li class="gs_li">
+                    <div class="gs_div">
+                        <a href="" class="gs_a"  title="Alan Walker (艾伦·沃克)">
+                            <img class="gs_pic" src="images/Alan.jpg" alt="Alan Walker (艾伦·沃克)">
+                        </a>
+                        <h3 class="gs_h"><a href="" title="Alan Walker (艾伦·沃克)">Alan Walker (艾伦·沃克)</a></h3>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="list">
+            <ul class="list_ul">
+                <li class="list_li"><a href=""  class="list_a" title="李易峰">李易峰</a></li>
+                <li class="list_li"><a href=""  class="list_a"  title="许嵩">许嵩</a></li>
+                <li class="list_li"><a href=""  class="list_a"  title="张杰">张杰</a></li>
+                <li class="list_li"><a href=""  class="list_a"  title="刘若英">刘若英</a></li>
+                <li class="list_li"><a href=""  class="list_a"  title="周笔畅">周笔畅</a></li>
+                <li class="list_li"><a href=""  class="list_a"   title="王力宏">王力宏</a></li>
+                <li class="list_li"><a href=""  class="list_a"   title="TFBOYS">TFBOYS</a></li>
+                <li class="list_li"><a href=""  class="list_a"  title="五月天">五月天</a></li>
+                <li class="list_li"><a href=""  class="list_a"   title="G.E.M. 邓紫棋">G.E.M. 邓紫棋</a></li>
+                <li class="list_li"><a href=""  class="list_a"  title="杨宗纬">杨宗纬</a></li>
+                <li class="list_li"><a href=""  class="list_a"   title="张碧晨">张碧晨</a></li>
+                <li class="list_li"><a href=""  class="list_a" title="南征北战">南征北战</a></li>
+                <li class="list_li"><a href=""  class="list_a"   title="BIGBANG">BIGBANG</a></li>
+                <li class="list_li"><a href=""  class="list_a"  title="华晨宇">华晨宇</a></li>
+                <li class="list_li"><a href=""  class="list_a"  title="The Chainsmokers (烟鬼组合)">The Chainsmokers (烟鬼组合)</a></li>
+                <li class="list_li"><a href=""  class="list_a"  title="潘玮柏">潘玮柏</a></li>
+                <li class="list_li"><a href=""  class="list_a"   title="鹿晗">鹿晗</a></li>
+                <li class="list_li"><a href=""  class="list_a"   title="袁娅维">袁娅维</a></li>
+                <li class="list_li"><a href=""  class="list_a"   title="音阙诗听">音阙诗听</a></li>
+                <li class="list_li"><a href=""  class="list_a"   title="朴树">朴树</a></li>
+                <li class="list_li"><a href=""  class="list_a"   title="BEYOND">BEYOND</a></li>
+                <li class="list_li"><a href=""  class="list_a"  title="金志文">金志文</a></li>
+                <li class="list_li"><a href=""  class="list_a"   title="麦小兜">麦小兜</a></li>
+                <li class="list_li"><a href=""  class="list_a" title="Justin Bieber (贾斯汀·比伯)">Justin Bieber (贾斯汀·比伯)</a></li>
+                <li class="list_li"><a href=""  class="list_a"   title="赵雷">赵雷</a></li>
+                <li class="list_li"><a href=""  class="list_a"   title="广东雨神">广东雨神</a></li>
+                <li class="list_li"><a href=""  class="list_a"   title="张韶涵">张韶涵</a></li>
+                <li class="list_li"><a href=""  class="list_a"   title="双笙">双笙</a></li>
+                <li class="list_li"><a href=""  class="list_a"   title="房东的猫">房东的猫</a></li>
+                <li class="list_li"><a href=""  class="list_a"   title="周兴哲">周兴哲</a></li>
+                <li class="list_li"><a href=""  class="list_a"   title="张国荣">张国荣</a></li>
+                <li class="list_li"><a href=""  class="list_a"   title="Rag&#39;N&#39;Bone Man">Rag'N'Bone Man</a></li>
+                <li class="list_li"><a href=""  class="list_a"  title="胡66">胡66</a></li>
+                <li class="list_li"><a href=""  class="list_a"  title="徐秉龙">徐秉龙</a></li>
+                <li class="list_li"><a href=""  class="list_a"   title="李玉刚">李玉刚</a></li>
+                <li class="list_li"><a href=""  class="list_a"   title="Charlie Puth (查理·普斯)">Charlie Puth (查理·普斯)</a></li>
+                <li class="list_li"><a href=""  class="list_a"   title="李哈哈">李哈哈</a></li>
+                <li class="list_li"><a href=""  class="list_a"   title="任然">任然</a></li>
+                <li class="list_li"><a href=""  class="list_a"   title="孙子涵">孙子涵</a></li>
+                <li class="list_li"><a href=""  class="list_a"   title="陈粒">陈粒</a></li>
+                <li class="list_li"><a href=""  class="list_a"   title="田馥甄">田馥甄</a></li>
+                <li class="list_li"><a href=""  class="list_a"   title="Daddy Yankee (扬基老爹)">Daddy Yankee (扬基老爹)</a></li>
+                <li class="list_li"><a href=""  class="list_a"   title="南宫嘉骏">南宫嘉骏</a></li>
+                <li class="list_li"><a href=""  class="list_a"   title="蒋家驹（蒋蒋）">蒋家驹（蒋蒋）</a></li>
+                <li class="list_li"><a href=""  class="list_a"   title="张靓颖">张靓颖</a></li>
+                <li class="list_li"><a href=""  class="list_a"   title="Ed Sheeran (艾德·希兰)">Ed Sheeran (艾德·希兰)</a></li>
+                <li class="list_li"><a href=""  class="list_a"  title="岑宁儿">岑宁儿</a></li>
+                <li class="list_li"><a href=""  class="list_a" title="莫文蔚">莫文蔚</a></li>
+                <li class="list_li"><a href=""  class="list_a"  title="梁博">梁博</a></li>
+                <li class="list_li"><a href=""  class="list_a"  title="曲肖冰">曲肖冰</a></li>
+                <li class="list_li"><a href=""  class="list_a"  title="iKON">iKON</a></li>
+                <li class="list_li"><a href=""  class="list_a"  title="吴亦凡">吴亦凡</a></li>
+                <li class="list_li"><a href=""  class="list_a"  title="汪峰">汪峰</a></li>
+                <li class="list_li"><a href=""  class="list_a"  title="张学友">张学友</a></li>
+                <li class="list_li"><a href=""  class="list_a"  title="Maroon 5 (魔力红)">Maroon 5 (魔力红)</a></li>
+                <li class="list_li"><a href=""  class="list_a"  title="张宇">张宇</a></li>
+                <li class="list_li"><a href=""  class="list_a"  title="艾辰">艾辰</a></li>
+                <li class="list_li"><a href=""  class="list_a"  title="赵方婧">赵方婧</a></li>
+                <li class="list_li"><a href=""  class="list_a"  title="Selena Gomez (赛琳娜·戈麦斯)">Selena Gomez (赛琳娜·戈麦斯)</a></li>
+                <li class="list_li"><a href=""  class="list_a"  title="陈芳语">陈芳语</a></li>
+                <li class="list_li"><a href=""  class="list_a"  title="李宗盛">李宗盛</a></li>
+                <li class="list_li"><a href=""  class="list_a"  title="徐良">徐良</a></li>
+                <li class="list_li"><a href=""  class="list_a"  title="K-391">K-391</a></li>
+                <li class="list_li"><a href=""  class="list_a"  title="王俊凯">王俊凯</a></li>
+                <li class="list_li"><a href=""  class="list_a"  title="刘瑞琦">刘瑞琦</a></li>
+                <li class="list_li"><a href=""  class="list_a"  title="宋冬野">宋冬野</a></li>
+                <li class="list_li"><a href=""  class="list_a"  title="Austin Mahone (奥斯汀·马洪)">Austin Mahone (奥斯汀·马洪)</a></li>
+                <li class="list_li"><a href=""  class="list_a"  title="孙燕姿">孙燕姿</a></li>
+                <li class="list_li"><a href=""  class="list_a"  title="刀郎">刀郎</a></li>
+                <li class="list_li"><a href=""  class="list_a"  title="Soler">Soler</a></li>
+            </ul>
+        </div>
+        <div class="xlh">
+            <b class="No_1">1</b>
+            <a href="">2</a>
+            <a href="">3</a>
+            <a href="" >4</a>
+            <b class="more" style="color: #999">...</b>
+            <a href="">297</a>
+            <a href="" title="下一页"> <span>&gt;</span> </a>
+        </div>
+    </div>
+    <div id="footer">
+        <p style="height: 80px"></p>
+        <div class="f_1">
+            <div class="f_xz">
+                <p style="margin-left: 20px">下载QQ音乐客户端</p>
+                <p style="height: 50px"></p>
+                <ul class="xz_ul">
+                    <li class="xz_1"><a href=""  ><i class="xz_pc"><span class="icon_txt"></span></i>PC版</a></li>
+                    <li class="xz_1"><a href=""  ><i class="xz_mac"><span class="icon_txt"></span></i>Mac版</a></li>
+                    <li class="xz_1"><a href=""   ><i class="xz_android"><span class="icon_txt"></span></i>Android版</a></li>
+                    <li class="xz_1"><a href=""   ><i class="xz_iphone"><span class="icon_txt"></span></i>iPhone版</a></li>
+                </ul>
+            </div>
+            <div class="f_cp">
+                <p style="margin-left: 20px">特色产品</p>
+                <p style="height: 50px"></p>
+                <ul class="cp_ul">
+                    <li class="cp_1 "><a href=""  ><i class="cp_kg"></i>全民K歌</a></li>
+                    <li class="cp_1 "><a href=""   ><i class="cp_ss"></i>Super Sound</a></li>
+                    <li class="cp_1 "><a href=""   ><i class="cp_qp"></i>QPlay</a></li>
+                    <li class="cp_2"><a href=""   >车载互联</a></li>
+                    <li class="cp_2"><a href=""  >QQ演出</a></li>
+                </ul>
+            </div>
+            <div class="f_lj">
+                <p>合作链接</p>
+                <p style="height:50px "></p>
+                <div class="lj_a">
+                    <a href="">CJ E&M</a>
+                    <a href="">最新版QQ</a>
+                    <a href="">QQ浏览器</a>
+                    <a href="">企鹅FM</a>
+                </div>
+                <div class="lj_a">
+                    <a href="">腾讯视频</a>
+                    <a href="">腾讯社交广告</a>
+                    <a href="">腾讯微云</a>
+                    <a href="">智能电视网</a>
+                </div>
+                <div class="lj_a">
+                    <a href="">手机QQ空间</a>
+                    <a href="">电脑管家</a>
+                    <a href="">腾讯云</a>
+                    <a href="">当贝市场</a>
+                </div>
+
+            </div>
+            <div class="f_pt">
+                <p>开放平台</p>
+                <p style="height: 50px"></p>
+                <ul class="pt_ul">
+                    <li class="pt_li"><a href="">腾讯音乐人平台</a></li>
+                    <li><a href="">音乐号认证</a></li>
+                    <li><a href="">上传视频</a></li>
+                    <li><a href="">上传音频</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="f_bq">
+            <p style="height: 30px"></p>
+            <div class="bq_1">
+                <a href=""  title="关于腾讯">关于腾讯</a> |
+                <a href=""  title="About Tencent">About Tencent</a> |
+                <a href=""  title="服务条款">服务条款</a> |
+                <a href=""  title="用户服务协议">用户服务协议</a> |
+                <a href=""  title="隐私政策">隐私政策</a> |
+                <a href=""  title="权利声明">权利声明</a> |
+                <a href=""  title="广告服务">广告服务</a> |
+                <a href=""  title="腾讯招聘">腾讯招聘</a> |
+                <a href=""  title="客服中心">客服中心</a> |
+                <a href=""  title="网站导航">网站导航</a>
+            </div>
+            <div class="bq_1">
+                Copyright &copy; 1998-2018 Tencent.
+                <a href=""  title="All Rights Reserved.">All Rights Reserved</a>
+            </div>
+            <div class="bq_1">
+                腾讯公司
+                <a href="" title="版权所有">版权所有</a>
+                <a href="" title="腾讯网络文化经营许可证">腾讯网络文化经营许可证</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="fk" >
+        <a href="" target="_top" class="a_1" id="xs" style="display: none"><i class="i_1"></i></a>
+        <a href="" class="a_2">反馈</a>
+        <a href="播放-渺小却伟大.html" target="_blank" class="a_3" ><i class="i_2"></i></a>
+    </div>
+
+    <script>
+        var xs=document.getElementById("xs");
+        window.onscroll=function () {
+            if(document.documentElement.scrollTop+document.body.scrollTop>250){
+                xs.style.display="block";
+            }else{
+                xs.style.display="none";
+            }
+        }
+
+        onscroll();
+
+
+        var box=document.getElementById("ycdl");
+        var dl=document.getElementById("wydl");
+        var lz=document.getElementById("lzhhb");
+        var ljdl=document.getElementById("ljdl");
+        var ffb=document.getElementById("ffb");
+        var dldiv=document.getElementById("dldiv");
+        var closer=document.getElementById("close");
+        var spa=document.getElementById("sp_a");
+        var dlqq=document.getElementById("dlqq");
+        var dlwx=document.getElementById("dlwx");
+        var qqdl=document.getElementById("qqdl");
+        var wxdl=document.getElementById("wxdl");
+        var zhdl=document.getElementById("zhdl");
+        var wdform=document.getElementById("wdform");
+
+        dlwx.onclick=function () {
+            wxdl.style.display="block";
+            qqdl.style.display="none";
+            dlwx.style.color="#31C27C";
+            dlqq.style.color="#333";
+        }
+        dlqq.onclick=function () {
+            wxdl.style.display="none";
+            qqdl.style.display="block";
+            dlwx.style.color="#333";
+            dlqq.style.color="#31C27C";
+        }
+
+        closer.onclick=function () {
+            box.style.display="none";
+        }
+        dl.onclick=function () {
+            box.style.display="block";
+        }
+        ljdl.onclick=function () {
+            box.style.display="block";
+        }
+        lz.onclick=function () {
+            box.style.display="block";
+        }
+        ffb.onclick=function () {
+            box.style.display="block";
+        }
+        zhdl.onclick=function () {
+            wdform.style.display="block";
+            dldiv.style.display="none";
+            zhdl.innerHTML="<a href=''>忘了密码？</a>";
+        }
+        spa.onclick=function () {
+            dldiv.style.display="block";
+            wdform.style.display="none";
+        }
+
+
+    </script>
+</body>
+</html>
